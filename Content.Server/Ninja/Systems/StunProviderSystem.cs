@@ -1,13 +1,15 @@
 using Content.Server.Ninja.Events;
 using Content.Server.Power.EntitySystems;
-using Content.Shared.Electrocution;
+using Content.Shared.Damage;
 using Content.Shared.Interaction;
 using Content.Shared.Ninja.Components;
 using Content.Shared.Ninja.Systems;
 using Content.Shared.Popups;
-using Content.Shared.Whitelist;
-using Robust.Shared.Audio;
+using Content.Shared.Stunnable;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Timing;
+using Content.Shared.Whitelist;
 
 namespace Content.Server.Ninja.Systems;
 
@@ -17,11 +19,13 @@ namespace Content.Server.Ninja.Systems;
 public sealed class StunProviderSystem : SharedStunProviderSystem
 {
     [Dependency] private readonly BatterySystem _battery = default!;
+    [Dependency] private readonly DamageableSystem _damageable = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly SharedElectrocutionSystem _electrocution = default!;
     [Dependency] private readonly SharedNinjaGlovesSystem _gloves = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly SharedStunSystem _stun = default!;
+    [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
 
     public override void Initialize()
     {
@@ -40,7 +44,7 @@ public sealed class StunProviderSystem : SharedStunProviderSystem
         if (args.Handled || comp.BatteryUid == null || !_gloves.AbilityCheck(uid, args, out var target))
             return;
 
-        if (target == uid || !comp.Whitelist.IsValid(target, EntityManager))
+        if (target == uid || _whitelistSystem.IsWhitelistFail(comp.Whitelist, target))
             return;
 
         if (_timing.CurTime < comp.NextStun)
@@ -55,8 +59,9 @@ public sealed class StunProviderSystem : SharedStunProviderSystem
 
         _audio.PlayPvs(comp.Sound, target);
 
-        // not holding hands with target so insuls don't matter
-        _electrocution.TryDoElectrocution(target, uid, comp.StunDamage, comp.StunTime, false, ignoreInsulation: true);
+        _damageable.TryChangeDamage(target, comp.StunDamage, false, true, null, origin: uid);
+        _stun.TryParalyze(target, comp.StunTime, refresh: false);
+
         // short cooldown to prevent instant stunlocking
         comp.NextStun = _timing.CurTime + comp.Cooldown;
 

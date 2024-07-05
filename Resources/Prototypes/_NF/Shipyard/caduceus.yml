@@ -5,12 +5,12 @@
   price: 105000
   category: Large
   group: Civilian
-  shuttlePath: /Maps/Shuttles/caduceus.yml
+  shuttlePath: /Maps/_NF/Shuttles/caduceus.yml
 
 - type: gameMap
   id: caduceus
   mapName: 'NM Caduceus'
-  mapPath: /Maps/Shuttles/caduceus.yml
+  mapPath: /Maps/_NF/Shuttles/caduceus.yml
   minPlayers: 0
   stations:
     caduceus:
@@ -22,12 +22,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
-          overflowJobs: []
           availableJobs:
-            Paramedic: [ 0, 0 ]
-            ChiefMedicalOfficer: [ 0, 0 ]
-            MedicalDoctor: [ 0, 0 ]
-            Chemist: [ 0, 0 ]
-            Borg: [ 0, 0 ]
-            StationEngineer: [ 0, 0 ]
-            MedicalIntern: [ 0, 0 ]
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

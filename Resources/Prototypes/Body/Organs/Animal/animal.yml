@@ -1,10 +1,11 @@
 ﻿- type: entity
-  id: BaseAnimalOrgan
+  id: BaseAnimalOrganUnGibbable
   parent: BaseItem
   abstract: true
   components:
   - type: Organ
   - type: Food
+#    quality: Nasty # Frontier
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
   - type: StaticPrice
@@ -23,6 +24,12 @@
     tags:
       - Meat
 
+- type: entity
+  id: BaseAnimalOrgan
+  parent: BaseAnimalOrganUnGibbable
+  abstract: true
+  components:
+  - type: Gibbable
 
 - type: entity
   id: OrganAnimalLungs
@@ -82,6 +89,17 @@
     - id: Drink
 
 - type: entity
+  id: OrganMouseStomach
+  parent: OrganAnimalStomach
+  name: stomach
+  noSpawn: true
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 30
+
+- type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
   name: liver
@@ -111,6 +129,7 @@
     metabolizerTypes: [ Animal ]
     groups:
     - id: Medicine
+    - id: Cryogenic # Frontier
     - id: Poison
     - id: Narcotic
 

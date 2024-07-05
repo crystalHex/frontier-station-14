@@ -2,10 +2,11 @@
   id: Detective
   name: job-name-detective
   description: job-description-detective
-  playTimeTracker: JobDetective
+  playTimeTracker: JobDetectiveOld
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 21600
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 54000 # 15 hours
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
@@ -16,25 +17,21 @@
   - Maintenance
   - Service
   - Detective
-  - Mercenary # Frontier
-  - Captain # Frontier
   special:
   - !type:AddImplantSpecial
-    implants: [ MindShieldImplant, TrackingImplant ]
+    implants: [ MindShieldImplant ]
+  setPreference: false # Frontier
 
 - type: startingGear
   id: DetectiveGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDetective
-    back: ClothingBackpackSecurityFilledDetective
-    shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesGlassesSunglasses
-    head: ClothingHeadHatFedoraBrown
-    outerClothing: ClothingOuterVestDetective
+    eyes: ClothingEyesGlassesSecurity
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltHolsterFilled
-    gloves: ClothingHandsGlovesCombat # Frontier
-  innerClothingSkirt: ClothingUniformJumpskirtDetective
-  satchel: ClothingBackpackSatchelSecurityFilledDetective
-  duffelbag: ClothingBackpackDuffelSecurityFilledDetective
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
+    - ForensicPad
+    - ForensicScanner

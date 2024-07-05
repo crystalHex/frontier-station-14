@@ -1,16 +1,26 @@
+# Author Info
+# GitHub: Blackszedows (https://github.com/Blackszedows)
+# Discord: ???
+
+# Maintainer Info
+# GitHub: erhardsteinhauer
+# Discord: erhardsteinhauer
+
+# Shuttle Notes:
+# 
 - type: vessel
   id: Chisel
   name: ICR Chisel
   description: Standard small size multipurpose vessel , originally meant to aid in ship scrapping.
-  price: 31340
+  price: 34615 # on init 30100$, 15% markup 4515$
   category: Small
   group: Civilian
-  shuttlePath: /Maps/Shuttles/chisel.yml
+  shuttlePath: /Maps/_NF/Shuttles/chisel.yml
 
 - type: gameMap
   id: Chisel
   mapName: 'ICR Chisel'
-  mapPath: /Maps/Shuttles/chisel.yml
+  mapPath: /Maps/_NF/Shuttles/chisel.yml
   minPlayers: 0
   stations:
     Chisel:
@@ -22,6 +32,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
-          overflowJobs: []
           availableJobs:
-            SalvageSpecialist: [ 0, 0 ]
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

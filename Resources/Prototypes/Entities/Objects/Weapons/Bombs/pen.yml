@@ -1,10 +1,11 @@
 - type: entity
   name: pen
   suffix: Exploding
-  parent: Pen
+  parent: PenEmbeddable
   description: A dark ink pen.
   id: PenExploding
   components:
+  - type: WeaponCaseInsertable # Frontier
   - type: OnUseTimerTrigger
     delay: 4
     examinable: false
@@ -27,6 +28,8 @@
   name: exploding pen box
   description: A small box containing an exploding pen. Packaging disintegrates when opened, leaving no evidence behind.
   components:
+  - type: Item
+    size: Tiny
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi
     state: exploding_pen

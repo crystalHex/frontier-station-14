@@ -5,10 +5,10 @@
     "y": 32
   },
   "license": "CC-BY-SA-3.0",
-  "copyright": "https://github.com/tgstation/tgstation/commit/53d1f1477d22a11a99c6c6924977cd431075761b",
+  "copyright": "Modified from https://github.com/tgstation/tgstation/commit/53d1f1477d22a11a99c6c6924977cd431075761b, Clarpy and Mistake edited by Dvir001, Cappy edited by ghostprince",
   "states": [
     {
-      "name": "mailcat",
+      "name": "piratecat",
       "directions": 4,
       "delays": [
         [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "name": "piratecat",
+      "name": "nfsdcat",
       "directions": 4,
       "delays": [
         [
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "mailcat_dead",
+      "name": "piratecat_dead",
       "delays": [
         [
           1
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "piratecat_dead",
+      "name": "nfsdcat_dead",
       "delays": [
         [
           1
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "name": "mailcat_rest",
+      "name": "piratecat_rest",
       "delays": [
         [
           0.1,
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "piratecat_rest",
+      "name": "nfsdcat_rest",
       "delays": [
         [
           0.1,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": "mailcat_sit",
+      "name": "piratecat_sit",
       "delays": [
         [
           1
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "piratecat_sit",
+      "name": "nfsdcat_sit",
       "delays": [
         [
           1

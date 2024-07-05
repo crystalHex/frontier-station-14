@@ -1,21 +1,19 @@
 - type: startingGear
-  id: MobEmotionalSupportGear
-  equipment:
-    id: PassengerIDCard
-
-- type: startingGear
   id: MobClippyGear
   equipment:
+    head: ClothingHeadMailCarrier
 #    ears: ClothingHeadsetService
     id: MailCarrierIDCard
 
 - type: startingGear
   id: MobClarpyGear
   equipment:
-#    ears: ClothingHeadsetService
-    id: AgentIDCard
+    head: ClothingHeadHatPirate
+    id: PirateIDCard
 
 - type: startingGear
-  id: MobMistakeGear
+  id: MobCappyGear
   equipment:
-    id: PassengerIDCard
+    head: ClothingHeadHatNfsdSmallCampaign
+    id: DeputyIDCard
+    belt: ClothingBeltNfsdWebbing

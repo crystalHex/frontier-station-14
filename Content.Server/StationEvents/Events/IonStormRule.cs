@@ -1,4 +1,4 @@
-using Content.Server.GameTicking.Rules.Components;
+using System.Linq;
 using Content.Server.Silicons.Laws;
 using Content.Server.Station.Components;
 using Content.Server.StationEvents.Components;
@@ -6,6 +6,7 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
 using Content.Shared.Dataset;
 using Content.Shared.FixedPoint;
+using Content.Shared.GameTicking.Components;
 using Content.Shared.Random;
 using Content.Shared.Random.Helpers;
 using Content.Shared.Silicons.Laws;
@@ -53,8 +54,6 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
     [ValidatePrototypeId<DatasetPrototype>]
     private const string AllergySeverities = "IonStormAllergySeverities";
     [ValidatePrototypeId<DatasetPrototype>]
-    private const string Species = "IonStormSpecies";
-    [ValidatePrototypeId<DatasetPrototype>]
     private const string Concepts = "IonStormConcepts";
     [ValidatePrototypeId<DatasetPrototype>]
     private const string Drinks = "IonStormDrinks";
@@ -65,15 +64,19 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
     {
         base.Started(uid, comp, gameRule, args);
 
-        if (!TryGetRandomStation(out var chosenStation))
-            return;
+        // Frontier - Affect all silicon beings in the sector, not just on-station.
+        // if (!TryGetRandomStation(out var chosenStation))
+        //     return;
+        // End Frontier
 
         var query = EntityQueryEnumerator<SiliconLawBoundComponent, TransformComponent, IonStormTargetComponent>();
         while (query.MoveNext(out var ent, out var lawBound, out var xform, out var target))
         {
-            // only affect law holders on the station
-            if (CompOrNull<StationMemberComponent>(xform.GridUid)?.Station != chosenStation)
-                continue;
+            // Frontier - Affect all silicon beings in the sector, not just on-station.
+            // // only affect law holders on the station
+            // if (CompOrNull<StationMemberComponent>(xform.GridUid)?.Station != chosenStation)
+            //     continue;
+            // End Frontier
 
             if (!RobustRandom.Prob(target.Chance))
                 continue;
@@ -137,12 +140,30 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
             }
             else
             {
-                laws.Laws.Insert(0, new SiliconLaw()
+                laws.Laws.Insert(0, new SiliconLaw
                 {
                     LawString = newLaw,
                     Order = -1,
-                    LawIdentifierOverride = "#"
+                    LawIdentifierOverride = Loc.GetString("ion-storm-law-scrambled-number", ("length", RobustRandom.Next(5, 10)))
                 });
+            }
+
+            // sets all unobfuscated laws' indentifier in order from highest to lowest priority
+            // This could technically override the Obfuscation from the code above, but it seems unlikely enough to basically never happen
+            int orderDeduction = -1;
+
+            for (int i = 0; i < laws.Laws.Count; i++)
+            {
+                string notNullIdentifier = laws.Laws[i].LawIdentifierOverride ?? (i - orderDeduction).ToString();
+
+                if (notNullIdentifier.Any(char.IsSymbol))
+                {
+                    orderDeduction += 1;
+                }
+                else
+                {
+                    laws.Laws[i].LawIdentifierOverride = (i - orderDeduction).ToString();
+                }
             }
 
             _adminLogger.Add(LogType.Mind, LogImpact.High, $"{ToPrettyString(ent):silicon} had its laws changed by an ion storm to {laws.LoggingString()}");
@@ -173,7 +194,6 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
         var action = Pick(Actions);
         var allergy = Pick(Allergies);
         var allergySeverity = Pick(AllergySeverities);
-        var species = Pick(Species);
         var concept = Pick(Concepts);
         var drink = Pick(Drinks);
         var food = Pick(Foods);
@@ -206,21 +226,20 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
             _ => Loc.GetString("ion-storm-heads")
         };
         var part = Loc.GetString("ion-storm-part", ("part", RobustRandom.Prob(0.5f)));
-        var harm = RobustRandom.Next(0, 7) switch
+        var harm = RobustRandom.Next(0, 6) switch
         {
             0 => concept,
             1 => $"{adjective} {threats}",
             2 => $"{adjective} {objects}",
             3 => Loc.GetString("ion-storm-adjective-things", ("adjective", adjective)),
-            4 => species,
-            5 => crew1,
+            4 => crew1,
             _ => Loc.GetString("ion-storm-x-and-y", ("x", crew1), ("y", crew2))
         };
 
         if (plural) feeling = feelingPlural;
 
         // message logic!!!
-        return RobustRandom.Next(0, 37) switch
+        return RobustRandom.Next(0, 36) switch
         {
             0  => Loc.GetString("ion-storm-law-on-station", ("joined", joined), ("subjects", triple)),
             1  => Loc.GetString("ion-storm-law-no-shuttle", ("joined", joined), ("subjects", triple)),
@@ -251,12 +270,11 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
             27 => Loc.GetString("ion-storm-law-crew-only-1", ("who", crew1), ("part", part)),
             28 => Loc.GetString("ion-storm-law-crew-only-2", ("who", crew1), ("other", crew2), ("part", part)),
             29 => Loc.GetString("ion-storm-law-crew-only-subjects", ("adjective", adjective), ("subjects", RobustRandom.Prob(0.5f) ? objectsThreats : "PEOPLE"), ("part", part)),
-            30 => Loc.GetString("ion-storm-law-crew-only-species", ("species", species), ("part", part)),
-            31 => Loc.GetString("ion-storm-law-crew-must-do", ("must", must), ("part", part)),
-            32 => Loc.GetString("ion-storm-law-crew-must-have", ("adjective", adjective), ("objects", objects), ("part", part)),
-            33 => Loc.GetString("ion-storm-law-crew-must-eat", ("who", who), ("adjective", adjective), ("food", food), ("part", part)),
-            34 => Loc.GetString("ion-storm-law-harm", ("who", harm)),
-            35 => Loc.GetString("ion-storm-law-protect", ("who", harm)),
+            30 => Loc.GetString("ion-storm-law-crew-must-do", ("must", must), ("part", part)),
+            31 => Loc.GetString("ion-storm-law-crew-must-have", ("adjective", adjective), ("objects", objects), ("part", part)),
+            32 => Loc.GetString("ion-storm-law-crew-must-eat", ("who", who), ("adjective", adjective), ("food", food), ("part", part)),
+            33 => Loc.GetString("ion-storm-law-harm", ("who", harm)),
+            34 => Loc.GetString("ion-storm-law-protect", ("who", harm)),
             _ => Loc.GetString("ion-storm-law-concept-verb", ("concept", concept), ("verb", verb), ("subjects", triple))
         };
     }

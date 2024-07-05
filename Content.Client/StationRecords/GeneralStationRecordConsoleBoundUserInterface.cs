@@ -19,25 +19,16 @@ public sealed class GeneralStationRecordConsoleBoundUserInterface : BoundUserInt
         base.Open();
 
         _window = new();
-        _window.OnKeySelected += OnKeySelected;
-        _window.OnFiltersChanged += OnFiltersChanged;
+        _window.OnKeySelected += key =>
+            SendMessage(new SelectStationRecord(key));
+        _window.OnFiltersChanged += (type, filterValue) =>
+            SendMessage(new SetStationRecordFilter(type, filterValue));
         _window.OnJobAdd += OnJobsAdd;
         _window.OnJobSubtract += OnJobsSubtract;
+        _window.OnDeleted += id => SendMessage(new DeleteStationRecord(id));
         _window.OnClose += Close;
 
         _window.OpenCentered();
-    }
-
-    private void OnKeySelected((NetEntity, uint)? key)
-    {
-        SendMessage(new SelectGeneralStationRecord(key));
-    }
-
-    private void OnFiltersChanged(
-        GeneralStationRecordFilterType type, string filterValue)
-    {
-        GeneralStationRecordsFilterMsg msg = new(type, filterValue);
-        SendMessage(msg);
     }
 
     private void OnJobsAdd(ButtonEventArgs args)
@@ -64,9 +55,7 @@ public sealed class GeneralStationRecordConsoleBoundUserInterface : BoundUserInt
         base.UpdateState(state);
 
         if (state is not GeneralStationRecordConsoleState cast)
-        {
             return;
-        }
 
         _window?.UpdateState(cast);
     }

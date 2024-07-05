@@ -1564,7 +1564,7 @@ Entries:
     - type: Add
       message: >-
         SR has received a crate full of all kind of PDA, now available from the
-        Ptech vend machine.  
+        Ptech vend machine.
   id: 4584
   time: '2023-10-27T02:05:59.0000000+00:00'
 - author: dvir01
@@ -1971,7 +1971,7 @@ Entries:
     - type: Tweak
       message: >-
         Ship lockers adjusted with items moving to vend machines, in another
-        news, NT stock is up! 
+        news, NT stock is up!
   id: 4639
   time: '2023-11-27T22:32:20.0000000+00:00'
 - author: FoxxoTrystan
@@ -2228,7 +2228,7 @@ Entries:
     - type: Tweak
       message: >-
         The mercenary job has received improvement, new gear, new locker, and
-        new access. 
+        new access.
   id: 4664
   time: '2023-12-11T18:01:57.0000000+00:00'
 - author: crystalHex
@@ -2279,3 +2279,3085 @@ Entries:
         Any Gunslinger will love it.
   id: 4670
   time: '2023-12-15T21:57:29.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        ICR Chisel, NC Mission, NC Prospector, NR Sparrow were retrofitted with
+        atmos setups.
+  id: 4671
+  time: '2023-12-17T17:25:31.0000000+00:00'
+- author: mnemosynium
+  changes:
+    - type: Fix
+      message: NC Loader is no longer freezing by default.
+    - type: Remove
+      message: Removed security mask from inside Loader's walls.
+  id: 4672
+  time: '2023-12-17T17:26:29.0000000+00:00'
+- author: InsanityMoose
+  changes:
+    - type: Add
+      message: The shuttle console radar now has an option to hide shuttle labels
+  id: 4673
+  time: '2023-12-17T17:28:48.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added crossbow with assortment of bolts and special quiver, new items
+        can be crafted.
+  id: 4674
+  time: '2023-12-17T18:55:39.0000000+00:00'
+- author: RealIHaveANameOfficial
+  changes:
+    - type: Tweak
+      message: >-
+        The Anomalous lab has been heavily reinforced due to ongoing reports of
+        destructive looters.
+  id: 4675
+  time: '2023-12-17T19:02:53.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Cryosleep chambers now allow you to shove others inside! Do not try to
+        put dead bodies inside, though.
+    - type: Add
+      message: You can now wake up from cryosleep as a ghost.
+  id: 4676
+  time: '2023-12-17T22:17:30.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: >-
+        Security eavesdropping has been curtailed, smuggler drops will reveal
+        less info to security.
+  id: 4677
+  time: '2023-12-17T22:36:59.0000000+00:00'
+- author: Ubaser
+  changes:
+    - type: Add
+      message: >-
+        Added the NR-Investigator, a small salvage shuttle designed for
+        researching artifacts.
+  id: 4678
+  time: '2023-12-18T21:25:04.0000000+00:00'
+- author: crystalHex
+  changes:
+    - type: Add
+      message: Added DYS Dragonfly - a salvage/cargo freighter with a chemistry wing
+  id: 4679
+  time: '2023-12-18T21:43:29.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        Nanotrasen just ended building their newest prisoner transport ship, now
+        expedition capable!
+  id: 4680
+  time: '2023-12-18T22:10:03.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Added new crates to cargo! surgery, janitorial supplies B, bulk space
+        cleaner, janitorial trolley & cart, freezer
+    - type: Tweak
+      message: >-
+        Thrusters and gyros will now arrive in crates in cargo and wont be stuck
+        to the floor.
+  id: 4681
+  time: '2023-12-21T18:21:40.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Add
+      message: Added the STC stamp.
+  id: 4682
+  time: '2023-12-21T18:22:52.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Air Alarm parameters are now can be altered by Captains.
+  id: 4683
+  time: '2023-12-21T18:24:11.0000000+00:00'
+- author: mnemosynium
+  changes:
+    - type: Fix
+      message: Removed access restriction from the bar on the Barge
+  id: 4684
+  time: '2023-12-21T18:24:49.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Cryopods should now correctly accept SSD people.
+  id: 4685
+  time: '2023-12-21T19:39:34.0000000+00:00'
+- author: DustScoundrel
+  changes:
+    - type: Add
+      message: Added Beacon Outpost POI for the cult-inclined.
+  id: 4686
+  time: '2023-12-21T20:16:09.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added the McCargo ship, get your very own McCargo franchisee today!
+  id: 4687
+  time: '2023-12-21T21:07:38.0000000+00:00'
+- author: DustScoundrel
+  changes:
+    - type: Add
+      message: Added the Garden, a small botany vessel.
+  id: 4688
+  time: '2023-12-21T21:08:09.0000000+00:00'
+- author: DustScoundrel
+  changes:
+    - type: Add
+      message: Added Grifty's Gas and Grub bluespace POI
+  id: 4689
+  time: '2023-12-21T21:58:47.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added NM Searchlight - a small search and rescue vessel.
+  id: 4690
+  time: '2023-12-21T22:15:01.0000000+00:00'
+- author: crystalHex
+  changes:
+    - type: Tweak
+      message: Minor tweaks to the Pulse.
+  id: 4691
+  time: '2023-12-21T22:19:44.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Added more condiments to the condiments stand
+  id: 4692
+  time: '2023-12-21T22:28:11.0000000+00:00'
+- author: Wolfhauler
+  changes:
+    - type: Add
+      message: Added the Spectre
+  id: 4693
+  time: '2023-12-22T00:18:24.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added the "Opportunity" prison expedition ship.
+  id: 4694
+  time: '2023-12-22T02:19:37.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added SR carapace!
+    - type: Tweak
+      message: Removed speed penalty from captain's carapace!
+  id: 4695
+  time: '2023-12-23T21:09:01.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        PietyVend holds a bigger stock and can be restocked like other cloth
+        vendomats.
+  id: 4696
+  time: '2023-12-24T01:09:59.0000000+00:00'
+- author: FoxxoTrystan
+  changes:
+    - type: Tweak
+      message: >-
+        Security are unable to pick detailed signals from arriving BlackMarket
+        Shipyards.
+  id: 4697
+  time: '2023-12-24T01:11:10.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Junk food price adjust to inflation.
+  id: 4698
+  time: '2023-12-24T03:25:59.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        The Bison and SV ships moved to the scrapyard shipyard, possibly found
+        in the Frontier maints.
+  id: 4699
+  time: '2023-12-24T13:56:42.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: >-
+        Added the prisoner role to a select few security ships. Whitelisted
+        only.
+  id: 4700
+  time: '2023-12-24T15:51:57.0000000+00:00'
+- author: crystalHex
+  changes:
+    - type: Tweak
+      message: >-
+        The magnet on the ore box (and ore bag) can now be toggled through the
+        context menu.
+    - type: Tweak
+      message: The ore box can now go under plastic flaps.
+  id: 4701
+  time: '2023-12-24T15:59:51.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added new clothes for Chaplains. Check nearest PietyVend.
+  id: 4702
+  time: '2023-12-25T00:06:07.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added weapon racks. Can be constructed.
+  id: 4703
+  time: '2023-12-25T10:53:06.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Voice masks over radio shows you as "Unknown".
+  id: 4704
+  time: '2023-12-25T11:22:17.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Added a new wearable bell item to the theater vend.
+  id: 4705
+  time: '2023-12-26T16:28:47.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added NC Lantern - a medium-sized ship for Frontier Chaplains.
+  id: 4706
+  time: '2023-12-26T23:44:44.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added kegs. Bartenders rejoice.
+  id: 4707
+  time: '2023-12-27T13:48:52.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Smuggling crate chance lowered from 50% to ~42%
+    - type: Tweak
+      message: Dead drop timer raised from 10-40 minutes to 15-45 minutes.
+  id: 4708
+  time: '2023-12-27T14:00:13.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Tweaked Bocadillo - added atmos and drain.
+  id: 4709
+  time: '2023-12-29T01:00:20.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Tweaked Honker - added atmos setup.
+  id: 4710
+  time: '2023-12-29T01:17:00.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Mercenary groups started to setup bases on lava planets.
+  id: 4711
+  time: '2023-12-29T02:36:11.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added notice boards. Accessible through construction menu.
+  id: 4712
+  time: '2023-12-29T11:40:29.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Crematoriums can no longer be used to cremate alive mobs and players
+        with an active soul
+    - type: Tweak
+      message: >-
+        Cloning now preserves your size. Small creatures will no longer become
+        massive after being cloned!
+  id: 4713
+  time: '2023-12-29T17:09:12.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Add
+      message: Added squeeze bottles for ketchup & mustard.
+  id: 4714
+  time: '2023-12-30T09:42:41.0000000+00:00'
+- author: crystalHex
+  changes:
+    - type: Tweak
+      message: The EngiVend now sells geiger counters and holofan projectors.
+    - type: Tweak
+      message: The Vendomat now sells glass beakers.
+  id: 4715
+  time: '2023-12-30T16:59:00.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added digging dirt.
+  id: 4716
+  time: '2024-01-01T02:51:14.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Mail Truck - added rudimentary atmos, replaced APUs with
+        P.A.C.M.A.N.
+  id: 4717
+  time: '2024-01-01T03:02:00.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Tweaked Pulse - replaced APUs with P.A.C.M.A.N.
+  id: 4718
+  time: '2024-01-01T03:05:22.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added station guard jumpsuit and jumpskirt.
+  id: 4719
+  time: '2024-01-01T17:00:12.0000000+00:00'
+- author: GingerAvalanche
+  changes:
+    - type: Add
+      message: Shuttle console display UI now shows ship name and designation
+  id: 4720
+  time: '2024-01-01T18:06:11.0000000+00:00'
+- author: GhostPrince
+  changes:
+    - type: Add
+      message: Janigang has arrived in your lobby screens!
+  id: 4721
+  time: '2024-01-01T22:42:45.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Felinids now meow out their words. They can also sigh now.
+    - type: Add
+      message: Added a fluffy tail for the felinids.
+    - type: Add
+      message: Vulpkanins can now Sigh, Sneeze, Cough, Cry and Whistle.
+  id: 4722
+  time: '2024-01-02T01:24:39.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Pioneer - replaced ore processor with ore boxes. Note that raw
+        plasma ore can be used as a fuel for generator.
+  id: 4723
+  time: '2024-01-02T01:39:45.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added Weapon Racks variations - Security, Command, Salvage, Mercenary.
+    - type: Fix
+      message: Fixed Weapon Rack acting as lockers in disguise.
+  id: 4724
+  time: '2024-01-02T23:06:46.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added semitransparent plastic kegs.
+  id: 4725
+  time: '2024-01-02T23:07:51.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Felinds can now Sneezes. Cough, Cry and Whistle.
+  id: 4726
+  time: '2024-01-02T23:26:26.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: You can customize you clown shoes. Check out construction menu.
+  id: 4727
+  time: '2024-01-02T23:42:17.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Happy honk vend now sells Bulk Mystery Figurines box.
+  id: 4728
+  time: '2024-01-03T00:21:10.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Added an IFF filtering feature to the shuttle console UI, allowing to
+        search for specific IFFs
+  id: 4729
+  time: '2024-01-04T05:02:27.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added wall-mounted suit storage units.
+  id: 4730
+  time: '2024-01-06T14:11:09.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Tweaked Barge - added waste loop to atmos.
+  id: 4731
+  time: '2024-01-07T16:12:03.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        The shipyard console on the Empress was changed to only sell small
+        security ships
+    - type: Tweak
+      message: >-
+        The Cleric, the Rogue and the Fighter are now only available from the
+        Empresses shipyard console.
+  id: 4732
+  time: '2024-01-07T19:28:57.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Tweak
+      message: Praeda was reworked.
+  id: 4733
+  time: '2024-01-07T19:48:50.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Tweak
+      message: Sprinter was reworked.
+  id: 4734
+  time: '2024-01-07T20:45:57.0000000+00:00'
+- author: ghostprince
+  changes:
+    - type: Add
+      message: NT Has added more ingredients to the ChefVend to allow ease of cooking.
+  id: 4735
+  time: '2024-01-08T23:57:21.0000000+00:00'
+- author: SungYandy
+  changes:
+    - type: Add
+      message: >-
+        NT Provided the janitors with fancy new lockers, coming to your ships
+        soon.
+  id: 4736
+  time: '2024-01-09T03:52:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added tabletop variants to common computer consoles. Available for
+        mappers right now.
+  id: 4737
+  time: '2024-01-09T16:22:12.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added four new xeno spawners for mapping!
+  id: 4738
+  time: '2024-01-10T01:20:44.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Tweak
+      message: Reduced the number and difficulty of the xenos at the lab.
+  id: 4739
+  time: '2024-01-10T02:40:28.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: The Syndicate have increased the defenses on their smuggling drops.
+    - type: Tweak
+      message: Changed the spawn rates and percentages of dead drops.
+  id: 4740
+  time: '2024-01-11T20:39:39.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: >-
+        Added the Public Transit system to a limited number of Points of
+        Interest
+    - type: Fix
+      message: Fixed Janitors spawning on the wrong station at round-start.
+  id: 4741
+  time: '2024-01-11T20:42:23.0000000+00:00'
+- author: VividPups
+  changes:
+    - type: Add
+      message: Added the USS Mayflower expeditions shuttle
+  id: 4742
+  time: '2024-01-12T02:37:24.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Anomaly generator now require bananium processed ore.
+  id: 4743
+  time: '2024-01-12T02:57:26.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Added a mothership console to the Caduceus, offering small medical
+        ships.
+  id: 4744
+  time: '2024-01-14T01:16:16.0000000+00:00'
+- author: Lokey82
+  changes:
+    - type: Add
+      message: Added the NT Stellaris, A new theatre ship.
+  id: 4745
+  time: '2024-01-14T16:11:17.0000000+00:00'
+- author: VividPups
+  changes:
+    - type: Tweak
+      message: >-
+        Mayflower - Replaced wall-mounted lockers of the Merc and Prisoner with
+        regular ones, removed loose .45 cal ammo and speedloaders.
+  id: 4746
+  time: '2024-01-14T16:19:12.0000000+00:00'
+- author: ghostprince
+  changes:
+    - type: Tweak
+      message: >-
+        Added the new AutoTune vender, sitting on frontier and selling all the
+        instrument you are looking for, might or might not have some hidden
+        secrets in its inventory.
+  id: 4747
+  time: '2024-01-14T22:00:29.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: >-
+        The public transit shuttle will now announce its next destination to
+        local chat on both arrival and departure
+    - type: Fix
+      message: Fixed the public transit shuttle from spawning twice each round
+  id: 4748
+  time: '2024-01-15T00:13:42.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Pilot Job with some job related drip. Check AstroVend for new looks.
+  id: 4749
+  time: '2024-01-15T01:04:57.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Scientists have discovered that small creatures can sleep inside bags.
+  id: 4750
+  time: '2024-01-15T01:40:21.0000000+00:00'
+- author: Mnemotechnician and GreaseMonk
+  changes:
+    - type: Add
+      message: Added job counters to the late-join menu.
+    - type: Fix
+      message: The late-join menu now correctly sorts and filters shuttles.
+  id: 4751
+  time: '2024-01-18T23:15:46.0000000+00:00'
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: A ton of new plushies has arrived on the sector!
+    - type: Add
+      message: >-
+        Prize counter are here, get your prizes by winning games and getting
+        prize tickets! and find prize balls!
+  id: 4752
+  time: '2024-01-18T23:23:38.0000000+00:00'
+- author: YumiGumi
+  changes:
+    - type: Tweak
+      message: Altered the SLI ships to bring them into line with mapping standards
+  id: 4753
+  time: '2024-01-18T23:24:51.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Added the McDelivery to the McCargo on ship shipyard, now you can do
+        your fast food delivery with your very own fast food delivery ship.
+  id: 4754
+  time: '2024-01-21T18:52:29.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added plasteel arming sword!
+  id: 4755
+  time: '2024-01-22T12:14:42.0000000+00:00'
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: 'Xeeenoooossss Lobby Art by: gentlebutter'
+    - type: Add
+      message: 'Secrun Lobby Art by: GhostPrince'
+    - type: Remove
+      message: Upstream Lobby Arts
+  id: 4756
+  time: '2024-01-22T21:13:12.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Fix
+      message: The SLI Bazaar no longer spaces itself after purchase.
+  id: 4757
+  time: '2024-01-22T21:32:58.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added NC Kilderkin - bar/brewery ship.
+  id: 4758
+  time: '2024-01-24T01:30:58.0000000+00:00'
+- author: McBosserson
+  changes:
+    - type: Add
+      message: Shibamata as lobby song
+  id: 4759
+  time: '2024-01-24T19:07:40.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added a small gyro to be used in smaller ships.
+  id: 4760
+  time: '2024-01-24T22:24:47.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        NT Added the security guard job to frontier to help SR & STC keep the
+        outpost safe.
+  id: 4761
+  time: '2024-01-24T22:30:31.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added ashtray to the shadycig vender.
+  id: 4762
+  time: '2024-01-24T22:34:48.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added NC Harbormaster, a tugboat.
+  id: 4763
+  time: '2024-01-25T00:52:47.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Legman to current mapping standards.
+  id: 4764
+  time: '2024-01-25T01:11:35.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Updated NT Rigger to current mapping standards, renamed NT Rigger to NT
+        Gasbender, added mothership console.
+  id: 4765
+  time: '2024-01-25T02:27:26.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NM Searchlight to current mapping standards.
+  id: 4766
+  time: '2024-01-25T02:31:54.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Lantern to current mapping standards, updated atmos.
+  id: 4767
+  time: '2024-01-25T02:35:54.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Pioneer to current mapping standards.
+  id: 4768
+  time: '2024-01-25T02:43:22.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated ICR Chisel to current mapping standards.
+  id: 4769
+  time: '2024-01-25T03:22:37.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Add
+      message: >-
+        Added the NFSD outpost, a new base of operations for the Sheriff and
+        their subordinates!
+  id: 4770
+  time: '2024-01-27T16:31:09.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Mail to current mapping standards.
+  id: 4771
+  time: '2024-01-28T13:33:42.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Mission to current mapping standards.
+  id: 4772
+  time: '2024-01-28T13:59:17.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Remove
+      message: Biomass from frontier outpost. (Experimental change, may get reverted.)
+  id: 4773
+  time: '2024-01-28T14:18:46.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Updated NC Bocadillo to current mapping standards plus made some QoL
+        changes.
+  id: 4774
+  time: '2024-01-28T15:21:02.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Updated NC Liquidator to current mapping standards, simplified atmos
+        setup.
+  id: 4775
+  time: '2024-01-28T15:49:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Barge to current mapping standards.
+  id: 4776
+  time: '2024-01-28T16:12:33.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Prospector to current mapping standards.
+  id: 4777
+  time: '2024-01-28T17:35:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated HS Garden to current mapping standards.
+  id: 4778
+  time: '2024-01-28T18:20:52.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Fixed the problem with tabletop consoles.
+  id: 4779
+  time: '2024-01-29T11:03:59.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Fixed interaction angles for Suit Wallstorage Units. Probably.
+  id: 4780
+  time: '2024-01-29T14:56:18.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated KL Bulker to current mapping standards.
+  id: 4781
+  time: '2024-01-29T16:01:49.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC WaveShot to current mapping standards.
+  id: 4782
+  time: '2024-01-29T16:58:45.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Cargo has moved some of the crates items to vending machines, Implant to
+        medical, cloth to theater, toys to cuddly critter.
+  id: 4783
+  time: '2024-01-29T17:04:22.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated HS Garden to current mapping standards.
+  id: 4784
+  time: '2024-01-29T17:04:57.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Plasma and uranium generators can now auto insert fuel with internal
+        magnet, toggle the magnet to on via the verb menu UI.
+    - type: Add
+      message: >-
+        Lathes can now auto insert materials, toggle the magnet to on via the
+        verb menu UI.
+  id: 4785
+  time: '2024-01-29T17:07:42.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated KC Crescent to current mapping standards.
+  id: 4786
+  time: '2024-01-29T22:22:15.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Esquire to current mapping standards.
+  id: 4787
+  time: '2024-01-30T11:45:52.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NT Praeda to current mapping standards.
+  id: 4788
+  time: '2024-01-30T12:00:50.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Skipper to current mapping standards.
+  id: 4789
+  time: '2024-01-30T12:16:33.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Rosebud Mk I to current mapping standards.
+  id: 4790
+  time: '2024-01-30T14:31:13.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated PTS to current mapping standards.
+  id: 4791
+  time: '2024-01-30T15:09:50.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated Pathfinder to current mapping standards.
+  id: 4792
+  time: '2024-01-30T15:39:54.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated SV Nugget to current mapping standards.
+  id: 4793
+  time: '2024-01-30T16:39:36.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        NanoTrasen cloning facilities no longer cause tall lizards, small
+        vulpkanin, and tall felinids to have their body weight doubled.
+  id: 4794
+  time: '2024-01-31T14:32:30.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added pilot's mask, pilot's webbing.
+  id: 4795
+  time: '2024-01-31T15:15:04.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Tweak
+      message: >-
+        NFSD Outpost should now be practicing proper social distancing towards
+        Frontier Outpost.
+  id: 4796
+  time: '2024-02-02T00:56:13.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NM Pulse to current mapping standards.
+  id: 4797
+  time: '2024-02-02T18:48:50.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NM Helix to current mapping standards.
+  id: 4798
+  time: '2024-02-02T18:49:05.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated (and slightly reworked) NR Sparrow to current mapping standards.
+  id: 4799
+  time: '2024-02-02T23:12:12.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added clown & mime gear to AutoDrob.
+  id: 4800
+  time: '2024-02-03T17:56:47.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added small gyro and thrusters to cargo and sci tech.
+  id: 4801
+  time: '2024-02-03T17:58:48.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Emotional support cats can now swap hats (Mail, Pirate, Chef)
+  id: 4802
+  time: '2024-02-03T17:59:55.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added ForensicScanner & BoxForensicPad to SecTech & BountyVend
+  id: 4803
+  time: '2024-02-03T18:13:54.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: The tall trait no longer makes cats and lizards heavier.
+  id: 4804
+  time: '2024-02-04T17:13:35.0000000+00:00'
+- author: IData-RedactedI
+  changes:
+    - type: Add
+      message: Added a new piece of lobby art, inspire the workforce!
+  id: 4805
+  time: '2024-02-04T17:50:01.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Changed some ghost roles to require white list
+    - type: Tweak
+      message: Enabled Shadow biome for expeditions
+    - type: Tweak
+      message: Merged Upstream. See adjacent tab for more info.
+    - type: Tweak
+      message: Helix, Caduceus, and Crescent has new chemistry machines.
+  id: 4806
+  time: '2024-02-08T15:59:18.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Fix
+      message: Fixed fax machines
+  id: 4807
+  time: '2024-02-08T22:57:34.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Fix
+      message: Fixed bluespace events deleting people
+  id: 4808
+  time: '2024-02-08T23:11:23.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added a variety of messenger bags, check outfit vendomats near you.
+        Thanks to dvir001 messenger bags are available as starting loadout.
+  id: 4809
+  time: '2024-02-09T01:22:44.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        NT is concerned with work performance of Mail Delivery Service and
+        issued new equipment to enhance it: mail capsules and mail capsule
+        launcher.
+  id: 4810
+  time: '2024-02-10T14:11:20.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Tweak
+      message: Mapping guidelines update for Opportunity.
+  id: 4811
+  time: '2024-02-12T21:03:56.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added buildable entities: secret doors (wood, reinforced, shuttle,
+        uranium). And some diagonal walls for mappers.
+  id: 4812
+  time: '2024-02-12T21:08:52.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        NT Now provide the SR and Sheriff with the new DEMAG cryptographic
+        resequencer, currently allowing them to unhack vending machines, doors
+        and lockers with more to come soon.
+  id: 4813
+  time: '2024-02-12T22:35:38.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: CE suit 100<95% rad protection.
+  id: 4814
+  time: '2024-02-12T22:55:59.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Remove
+      message: Removed syndicate turret box from Caduceus.
+  id: 4815
+  time: '2024-02-13T01:16:22.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: New diagonal windows now match Frontier windows.
+  id: 4816
+  time: '2024-02-14T16:01:20.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Shuttle Secret doors are actually constructible now.
+  id: 4817
+  time: '2024-02-15T01:13:24.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NT Honker to new mapping standards.
+  id: 4818
+  time: '2024-02-15T01:19:24.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NR Phoenix to current mapping standards.
+  id: 4819
+  time: '2024-02-15T01:23:34.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NT Comet to current mapping standards.
+  id: 4820
+  time: '2024-02-15T01:25:18.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Add
+      message: Added sparrow.yml, which re-lists the vessel in the shipyard again.
+  id: 4821
+  time: '2024-02-15T01:30:09.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated NC Loader to current mapping standards.
+  id: 4822
+  time: '2024-02-15T01:32:55.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Changed how whitelisting works for weapon racks. Also to put/retrieve
+        weapon from rack use Alt+Click.
+  id: 4823
+  time: '2024-02-15T01:34:39.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: NT Gasbender now comes with Flatpacker 1001.
+    - type: Tweak
+      message: NC Pioneer now comes equipped with smaller gyroscope.
+    - type: Tweak
+      message: NC Legman now comes equipped with smaller gyroscope.
+  id: 4824
+  time: '2024-02-15T01:42:53.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        You no longer drop the carried person when walking across different
+        grids.
+    - type: Add
+      message: You can now halt your attempt to escape from a bag or someone's hands.
+    - type: Add
+      message: Trying to take someone out of a bag now results in carrying them.
+    - type: Add
+      message: You can now insert carried people into bags.
+  id: 4825
+  time: '2024-02-15T01:51:20.0000000+00:00'
+- author: AjexRose
+  changes:
+    - type: Add
+      message: >-
+        Added a new bluespace event: The Data Carrier, with lots of loot,
+        enemies, and a small focus on R&D
+    - type: Tweak
+      message: >-
+        Arcadia Industries mobs have been slightly reworked to no longer bleed
+        blood.
+    - type: Tweak
+      message: Fixed the ArcadiaDrobe's vendor sprite
+  id: 4826
+  time: '2024-02-15T02:57:02.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Fix
+      message: Fixed Arachnid blood to copper blood.
+  id: 4827
+  time: '2024-02-15T03:01:31.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Fix
+      message: Dungeons should spawn with less issues now.
+  id: 4828
+  time: '2024-02-16T06:56:13.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: >-
+        Changed sharkminnows to be less frequent, less deadly, and less
+        teleporty
+  id: 4829
+  time: '2024-02-17T22:26:54.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Add
+      message: Added a new medium-sized fine-dining restaurant ship, NC Ceres.
+  id: 4830
+  time: '2024-02-19T19:52:34.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Expanded the list of constructible furniture.
+    - type: Add
+      message: >-
+        Added Plant-O-Matic - a vending machine that sells potted plants.
+        Sprites by @minnie.
+    - type: Add
+      message: >-
+        Added Tile-Meister 5000 - tile/carpet printer. The circuit board can be
+        bought from CircuitVend.
+  id: 4831
+  time: '2024-02-19T20:12:47.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added The Menace - black market mail truck.
+  id: 4832
+  time: '2024-02-19T20:51:44.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Add
+      message: >-
+        Added the plant box storage, you can now buy a big storage for plants
+        from cargo.
+  id: 4833
+  time: '2024-02-19T21:38:41.0000000+00:00'
+- author: crystalHex
+  changes:
+    - type: Tweak
+      message: Updated the DYS Dove and Dragonfly to meet mapping guidelines.
+  id: 4834
+  time: '2024-02-19T21:41:16.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Tweak
+      message: Updated and reworked the Investigator.
+  id: 4835
+  time: '2024-02-19T21:44:27.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Adds mini hyposprays!
+    - type: Tweak
+      message: Replaces normal hyposprays with mini hyposprays wherever they may be.
+  id: 4836
+  time: '2024-02-21T04:21:06.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: NFSD now has their own bank account for payroll
+  id: 4837
+  time: '2024-02-21T18:35:17.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed the buggy client-side magnet belt pickup animation
+  id: 4838
+  time: '2024-02-21T22:01:14.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Add
+      message: Added Security contraband exchange uplink
+  id: 4839
+  time: '2024-02-21T22:03:53.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Remove
+      message: Removed the perfect IFF from the Menace.
+  id: 4840
+  time: '2024-02-22T03:47:01.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Advanced Magboots can be printed after they were researched.
+  id: 4841
+  time: '2024-02-24T13:08:14.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Now you can pull down pilot mask.
+    - type: Tweak
+      message: >-
+        Players who join round as Pilots now start with filled extended capacity
+        gas tank in their pocket.
+  id: 4842
+  time: '2024-02-24T13:09:53.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Fix
+      message: Fixed Microreactor cells not being printable at protolathes.
+  id: 4843
+  time: '2024-02-24T13:21:10.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Add
+      message: >-
+        A janitor found under one of the tables in the old SR office a manual on
+        how to construct tabletop consoles.
+  id: 4844
+  time: '2024-02-25T21:58:36.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Mining drill has been moved back to sci tech, ask someone to print you
+        some.
+  id: 4845
+  time: '2024-02-25T21:59:38.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        The contravend now sells vials of vestine, a precursor to a few powerful
+        chemicals.
+  id: 4846
+  time: '2024-02-25T23:11:59.0000000+00:00'
+- author: nyozzl
+  changes:
+    - type: Add
+      message: New scrapyard ship disciple
+  id: 4847
+  time: '2024-02-27T01:30:16.0000000+00:00'
+- author: NkoKirkto
+  changes:
+    - type: Add
+      message: Added the Placebo a small Psychologist ship.
+  id: 4848
+  time: '2024-02-29T06:03:25.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Pinpointers now take time to change their target, throughout which it
+        must stand absolutely still, and can no longer be used to pinpoint
+        people.
+  id: 4849
+  time: '2024-03-02T01:15:56.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Add
+      message: Added the Eagle shuttle
+  id: 4850
+  time: '2024-03-03T01:18:31.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Merges upstream to 2/26. See adjacant tab for more info.
+  id: 4851
+  time: '2024-03-04T16:25:54.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: >-
+        Nanotrasen has managed to extend the time it takes for food to rot away
+        and with it all biological related products like passengers of all
+        species, somehow this has produced delayed times on the central command
+        cloning facilities too.
+  id: 4852
+  time: '2024-03-04T21:44:59.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: >-
+        Re-balanced ship weapons and added the basic mining laser to the circuit
+        vend.
+  id: 4853
+  time: '2024-03-04T23:48:03.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Fix
+      message: Fixed rusty wall replacement
+  id: 4854
+  time: '2024-03-04T23:55:37.0000000+00:00'
+- author: Spessmann
+  changes:
+    - type: Add
+      message: >-
+        Added the ship, SV Point, a science ship purchasable from the scrap
+        terminal.
+  id: 4855
+  time: '2024-03-06T02:45:06.0000000+00:00'
+- author: Letholldus
+  changes:
+    - type: Add
+      message: >-
+        Adds the NC Hauler-Class Cargo and Salvage vessel to the game and the
+        Frontier outpost shipyard
+  id: 4856
+  time: '2024-03-08T01:24:03.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Fix
+      message: Fixed job selector not showing up in empty records consoles
+  id: 4857
+  time: '2024-03-08T02:07:06.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Now tt is possible to print AstroGrass and AstroIce on Tile-Meister
+        5000.
+  id: 4858
+  time: '2024-03-08T02:14:57.0000000+00:00'
+- author: Wolfking6116
+  changes:
+    - type: Fix
+      message: Centcom has recalled their faulty Anomaly Generator units!
+  id: 4859
+  time: '2024-03-08T13:53:08.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        FlatpackVend sells flatpacked machines instead of circuits now
+        (renamed).
+    - type: Tweak
+      message: >-
+        JRPAKMAN, PAKMAN, SUPERPAKMAN, thrusters, gyroscopes and some other
+        machines are sold as flatpacks at cargo now.
+    - type: Tweak
+      message: >-
+        Particularly big musical instruments are sold as flatpacks from Autotune
+        vendomat.
+  id: 4860
+  time: '2024-03-08T15:13:09.0000000+00:00'
+- author: Wolfking6116
+  changes:
+    - type: Add
+      message: Pilot and Mercenary corpses are being found across the Sector...
+  id: 4861
+  time: '2024-03-08T16:52:17.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Now you can make a sawn-off PKA. But should you though?
+  id: 4862
+  time: '2024-03-08T17:55:56.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Remove
+      message: RCD and Ammo have been removed from the Eagle.
+  id: 4863
+  time: '2024-03-11T05:47:20.0000000+00:00'
+- author: Qulibly
+  changes:
+    - type: Tweak
+      message: Tweaked crew monitors with new QoL features
+  id: 4864
+  time: '2024-03-11T23:03:50.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Carrying now works correctly (once again).
+    - type: Tweak
+      message: >-
+        Carrying was slightly nerfed as it no longer depends on your body
+        strength.
+  id: 4865
+  time: '2024-03-11T23:20:49.0000000+00:00'
+- author: Wolfking6116
+  changes:
+    - type: Add
+      message: >-
+        Scientists in the Sector have discovered new ways to refine ground up
+        Artifact fragments to make them more potent.
+    - type: Tweak
+      message: >-
+        It's been discovered that the quality of xenoartifacts has been
+        degrading with excessive excavation.
+  id: 4866
+  time: '2024-03-11T23:31:50.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Server Rules have been updated in relation to the station safezone.
+  id: 4867
+  time: '2024-03-14T22:47:33.0000000+00:00'
+- author: cite2000
+  changes:
+    - type: Add
+      message: NFSD medical ship "Whiskey"
+  id: 4868
+  time: '2024-03-16T21:53:36.0000000+00:00'
+- author: Cu1r
+  changes:
+    - type: Add
+      message: Added the UAC Canister to the scrapyard for purchase.
+  id: 4869
+  time: '2024-03-17T08:29:25.0000000+00:00'
+- author: Letholldus
+  changes:
+    - type: Fix
+      message: >-
+        Adjusts the price of the NC Hauler from 49,500 to 60,000 to cost what it
+        should.
+  id: 4870
+  time: '2024-03-17T10:21:37.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Remove
+      message: Opportunity temporarily removed.
+  id: 4871
+  time: '2024-03-18T13:42:10.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: smugglers and pirates are no longer in the same team.
+  id: 4872
+  time: '2024-03-18T16:30:56.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Pen sign is back, signing is now based on your name and not your ID
+        name.
+  id: 4873
+  time: '2024-03-18T16:35:36.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Hardsuits and softsuits can be researched and fabricated.
+    - type: Add
+      message: Added salvage techfab machine.
+    - type: Add
+      message: >-
+        Added Botany and Mailcarrier EVA suits. Print one on your service fab
+        today!
+    - type: Tweak
+      message: Hardsuits and softsuits can be recycled.
+  id: 4874
+  time: '2024-03-18T16:45:02.0000000+00:00'
+- author: arimah
+  changes: []
+  id: 4875
+  time: '2024-03-18T16:46:12.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Add
+      message: Liberation Station now offers slug rounds.
+  id: 4876
+  time: '2024-03-18T18:39:07.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        New Bluespace Event. NT Naval Command disrupted the FTL-jump of
+        Syndicate Vessel.
+    - type: Add
+      message: >-
+        New Bluespace Event. NT Naval Command detected a Wizard Federation
+        Scouting Probe entering Frontier Sector.
+    - type: Add
+      message: >-
+        New Bluespace Event. NT Office of Faith and Believes issues aa
+        announcement about seemingly increased Blood Cult related activity in
+        the Frontier Sector and warns against worshiping fictional deities.
+    - type: Add
+      message: >-
+        New dungeon factions. Syndicate agents and Blood Cultists can now be
+        encountered planetside.
+  id: 4877
+  time: '2024-03-25T20:09:10.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        Nanotrasen just its newest radar microchip NSR-882 now available on
+        latest radar consoles.
+    - type: Tweak
+      message: >-
+        The paid trial of all mass scanners has ended and has been locked to the
+        demo version as by Nanotrasen terms of service.
+  id: 4878
+  time: '2024-03-25T21:05:52.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Mail room upgraded.
+  id: 4879
+  time: '2024-03-25T21:08:21.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Harpies have made their way from the Delta sector to Frontier, and are
+        now a new playable species!
+  id: 4880
+  time: '2024-03-25T21:13:00.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Tweak
+      message: Grifty's Gas and Grub has recieved a small expansion
+  id: 4881
+  time: '2024-03-25T21:18:13.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Add
+      message: NC Ceres now comes with soda and booze dispensers.
+  id: 4882
+  time: '2024-03-25T21:19:17.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Remove
+      message: Removed Tranquilizer rounds from LibertyVend.
+  id: 4883
+  time: '2024-03-26T09:57:43.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Syndicate agents are now more agitated, refusing to sit, and having
+        issues with sleeping for long duration.
+  id: 4884
+  time: '2024-03-26T22:52:38.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Harpies now correctly trill, tweet, chirp, and caw instead of
+        miraculously screeching about missing localizations.
+  id: 4885
+  time: '2024-03-27T12:31:17.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added beacons and maps to the station.
+    - type: Add
+      message: Added cameras to the station.
+    - type: Tweak
+      message: Remodeled SR office.
+    - type: Tweak
+      message: Swapped brig and theater locations.
+    - type: Fix
+      message: Fixed disposals.
+    - type: Fix
+      message: Named bus docks for STC.
+  id: 4886
+  time: '2024-03-27T20:49:47.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: >-
+        Respawn times take longer but your body takes longer until it starts
+        rotting away.
+  id: 4887
+  time: '2024-03-29T23:01:04.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Buffed stats on Experimental Mining Hardsuit.
+  id: 4888
+  time: '2024-03-29T23:03:17.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added the Cleithro psychologist shuttle, just a normal ship.
+  id: 4889
+  time: '2024-03-29T23:09:22.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Tweak
+      message: >-
+        The engi techfab has been upgraded to include everything needed for
+        shuttle construction and repair
+  id: 4890
+  time: '2024-03-29T23:13:11.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        Central command has just finished building the latest version of The
+        Empress.
+  id: 4891
+  time: '2024-03-29T23:59:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Courser X is updated to current mapping standards.
+  id: 4892
+  time: '2024-03-30T00:00:39.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Courser X is updated to current mapping standards.
+  id: 4893
+  time: '2024-03-30T00:03:39.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Pathfinder tweaks: replaced outer hull diagonal steel walls with
+        diagonal reinforced steel walls.
+  id: 4894
+  time: '2024-03-30T21:18:02.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated Rosebud Mk II to current mapping standards.
+  id: 4895
+  time: '2024-03-30T21:30:21.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Fix NFSD job icons
+  id: 4896
+  time: '2024-03-30T22:24:37.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        NC Gasbender tweaks: replaced medical bay with cinema lounge, removed
+        microwave, added withdrawal-only ATM.
+    - type: Tweak
+      message: >-
+        NM Searchlight tweaks: added withdrawal-only ATM, temperatures in morgue
+        lowered, added health analyzer.
+  id: 4897
+  time: '2024-03-31T07:17:56.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Tweak
+      message: Harpies are no longer fast and furious.
+  id: 4898
+  time: '2024-03-31T20:42:53.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Station Representative has full access now.
+  id: 4899
+  time: '2024-04-03T09:49:12.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: NFSD hour requirements have been updated.
+  id: 4900
+  time: '2024-04-04T14:38:28.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Add
+      message: Added the SBB Lyrae, a new medium sized research vessel.
+  id: 4901
+  time: '2024-04-07T00:32:09.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Add
+      message: 'Added the NC Piecrust: a combination ranch and pie bakery vessel'
+  id: 4902
+  time: '2024-04-07T02:37:35.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Add
+      message: Added the SBB Bookworm, a medium-sized library ship.
+  id: 4903
+  time: '2024-04-08T05:42:23.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Tranquilizer shells now come with with less amount of CH.
+  id: 4904
+  time: '2024-04-08T19:57:02.0000000+00:00'
+- author: GreaseMonk
+  changes:
+    - type: Fix
+      message: Fixed missing HV cable on Stratos SMES unit.
+  id: 4905
+  time: '2024-04-08T19:59:32.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Prevents dungeons from spawning multiple bosses.
+    - type: Tweak
+      message: >-
+        Syndicate NPCs store loot in special bags, that can be worn as a
+        backpack, but don't function as one - it spawns a predefined set of
+        items on use and disappears.
+    - type: Tweak
+      message: >-
+        Ascended Cultist (blood cult expedition boss) can be butchered by
+        players if they wish to obtain some of its powers for themselves.
+    - type: Tweak
+      message: Listening Post Bravo is now manned by appropriate forces.
+    - type: Tweak
+      message: Wizards and Blood Cultists have trouble sleeping.
+    - type: Tweak
+      message: >-
+        Incapacitated (put in crit) hostile agents can be exchanged for Frontier
+        Uplink Coins at NFSD Outpost.
+    - type: Tweak
+      message: >-
+        Reclassified some items as contraband: wizard items (hard suits, armor,
+        staffs, and wands), blood cult items (armor, weapons).
+  id: 4906
+  time: '2024-04-08T20:23:48.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Remove
+      message: Gravity guns have disappeared from the public research database forever.
+  id: 4907
+  time: '2024-04-08T21:40:38.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: 'NFSD got a new color on their radio with new frequency. '
+  id: 4908
+  time: '2024-04-08T21:43:54.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Slightly lowered the value of smuggled crates
+    - type: Fix
+      message: Fixed dead drop spawn rate
+  id: 4909
+  time: '2024-04-08T22:40:23.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Temporarily changed plants to lose less health when clipped
+  id: 4910
+  time: '2024-04-08T22:40:38.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: NFSD hours requirements increased upon majority request.
+  id: 4911
+  time: '2024-04-15T15:10:06.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Messenger Bag of Holding is now visible when worn.
+  id: 4912
+  time: '2024-04-15T15:11:12.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        added grenade bundles to the NFSD uplink and make the experimental
+        combat hardsuit available.
+  id: 4913
+  time: '2024-04-17T21:38:15.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Added the new Expeditionary FlatpackVend to the Lodge, not restockable
+        but contains expedition unique machines like the IFF,  
+  id: 4914
+  time: '2024-04-17T21:40:06.0000000+00:00'
+- author: GreaseMonk
+  changes:
+    - type: Fix
+      message: Fixed various issues with artifact construct including sell price.
+    - type: Tweak
+      message: Increased artifact construct health.
+    - type: Add
+      message: Added artifact construct chatter sound.
+  id: 4915
+  time: '2024-04-17T21:43:04.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Added new uniform for station guard and private security.
+    - type: Add
+      message: Added a full suite of clothing for the station representative.
+  id: 4916
+  time: '2024-04-17T22:04:59.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Nerfed bluespace bags to only 4 additional bag columns.
+  id: 4917
+  time: '2024-04-18T20:49:44.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: NFSD now has access to breaching charges.
+  id: 4918
+  time: '2024-04-18T21:59:45.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Add
+      message: Added NFSD combat and command hardsuits.
+  id: 4919
+  time: '2024-04-19T17:57:57.0000000+00:00'
+- author: Salvantrix
+  changes:
+    - type: Remove
+      message: Removed NFSD ships awaiting rework. (Interceptor and Whiskey.)
+  id: 4920
+  time: '2024-04-19T22:32:58.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Changed the Hospitaller and Templar to include NFSD changes.
+  id: 4921
+  time: '2024-04-20T01:22:08.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: '"Night Of The Post Goblin" (painting) has come.'
+  id: 4922
+  time: '2024-04-21T13:59:35.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Add
+      message: Added Vagabond medium freighter
+  id: 4923
+  time: '2024-04-21T22:14:31.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Changed descriptions of guns to be clearly contraband or not.
+  id: 4924
+  time: '2024-04-22T00:06:47.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Add
+      message: >-
+        Added the N2524 Pattern Repeater, a lever action rifle, to the
+        liberation station.
+  id: 4925
+  time: '2024-04-22T00:16:43.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Fix
+      message: Blood cultists no longer use numerals instead of punctuation
+  id: 4926
+  time: '2024-04-22T10:12:32.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: >-
+        Frontier Station's orbit around Frontier Prime has entered a dense
+        asteroid belt.
+  id: 4927
+  time: '2024-04-22T22:37:20.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: SCAF suit is now void capable, can be researched and printed.
+  id: 4928
+  time: '2024-04-22T22:53:40.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Tweak
+      message: Added new NSFD sprites to the NSF Whiskey and tweaked decals.
+  id: 4929
+  time: '2024-04-23T00:39:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Beware! Blood Cult Janitor has awoken as was prophesized!
+    - type: Add
+      message: >-
+        Cult Forge is now a functional lathe with a modest collection of
+        crafting recipes.
+    - type: Tweak
+      message: >-
+        Due to budget cuts not every syndicate agent comes equipped with death
+        acidifier.
+  id: 4930
+  time: '2024-04-23T17:39:31.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: Pirates have gained a more firm foothold in the sector.
+    - type: Tweak
+      message: >-
+        Pirate Captains are now a whitelisted role. See the discord for more
+        information.
+  id: 4931
+  time: '2024-04-23T21:36:50.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: NFSD Fixed the colors and machines on the NFSD base
+  id: 4932
+  time: '2024-04-24T22:36:54.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added safary suit and hat to AutoDrobe.
+    - type: Add
+      message: Added specific procedural suits to AutoDrobe.
+    - type: Tweak
+      message: >-
+        Arcadia Mask, Hydroponics EVA and Mailcarrier EVA helmets hide
+        character's hair now.
+    - type: Tweak
+      message: Pilot's hardsuit no longer requires mask to use air tank.
+    - type: Fix
+      message: Fixed arcadia webbing not displaying on character.
+  id: 4933
+  time: '2024-04-24T22:39:53.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: Adds the Barnacle black market ship
+  id: 4934
+  time: '2024-04-25T00:20:16.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Tweak
+      message: Tweaked the NSF Prowler and gave her a new lick of paint.
+  id: 4935
+  time: '2024-04-25T01:01:42.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Tweak
+      message: Updated NSF Inquisitor.
+  id: 4936
+  time: '2024-04-25T02:57:06.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Adds the Bocakillo, pirate ship.
+  id: 4937
+  time: '2024-04-25T05:36:54.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Temporarily restored Spacelaw books.
+  id: 4938
+  time: '2024-04-26T04:16:05.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Added storage compartment to Skeleton Bike.
+    - type: Tweak
+      message: It is possible to strap a duffel bag to ATV now.
+    - type: Tweak
+      message: ATV hull color is now randomized.
+    - type: Add
+      message: Added void-capable hoverbike. Buy one at cargo today!
+    - type: Add
+      message: Added void-capable hoverbikes for NFSD and Mail Carrier.
+  id: 4939
+  time: '2024-04-26T04:32:41.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Mail carrier hoverbike flatpack that can be bought from vendomat. and
+        NFSD 
+    - type: Add
+      message: >-
+        NFSD hoverbike flatpack that can be bought from uplink (utility
+        category).
+    - type: Remove
+      message: >-
+        Removed hoverbikes from cargo catalog. Will be added to expedition loot
+        pool at some point.
+  id: 4940
+  time: '2024-04-26T16:58:44.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Empress got a new coat of paint along with the microships.
+  id: 4941
+  time: '2024-04-26T18:23:05.0000000+00:00'
+- author: Gotimanga
+  changes:
+    - type: Tweak
+      message: 'Tweaked the NSF Wasp and changed it to the new NSFD colours '
+  id: 4942
+  time: '2024-04-26T20:49:17.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Revamped ICR Chisel.
+    - type: Tweak
+      message: Enabled additional recipes in salvage techfab.
+  id: 4943
+  time: '2024-04-26T21:27:00.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Tweak
+      message: Reworked the NSF Interceptor and brought it up to date.
+  id: 4944
+  time: '2024-04-26T22:05:51.0000000+00:00'
+- author: GreaseMonk
+  changes:
+    - type: Tweak
+      message: Add more info about stack count to entity logs
+  id: 4945
+  time: '2024-04-27T12:36:33.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added new species - Goblins.
+    - type: Add
+      message: Added new accent - Goblins Cant.
+    - type: Add
+      message: Added new decoration piece - Goblinkind Banner.
+  id: 4946
+  time: '2024-04-27T14:58:41.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Fix
+      message: Knuckleverse can hire latejoins correctly.
+  id: 4947
+  time: '2024-04-27T15:21:40.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Borgs can have laws that will force them to become goblin slayers due to
+        ion storms. Same for harpies.
+  id: 4948
+  time: '2024-04-27T17:48:50.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: The pirates moved to a new base, McCove if you will.
+  id: 4949
+  time: '2024-04-27T18:33:25.0000000+00:00'
+- author: GingerAvalanche
+  changes:
+    - type: Add
+      message: Shuttle console display UI now shows ship name and designation
+  id: 4950
+  time: '2024-04-27T19:07:30.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: 'Fixes the plasteel recipe to be lore accurate: Plasteel = Plasma + Steel'
+  id: 4951
+  time: '2024-04-27T23:46:34.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Updated conveyor belts sprites.
+  id: 4952
+  time: '2024-04-28T03:15:52.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Tweak
+      message: Rotated Bocakillo.
+  id: 4953
+  time: '2024-04-28T06:02:55.0000000+00:00'
+- author: ThatOneGoblin25
+  changes:
+    - type: Tweak
+      message: Updated and reworked the Spectre to current mapping guidelines.
+  id: 4954
+  time: '2024-04-29T03:06:00.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Added the new mail ship, the Mail Pod, available for the mail carrier in
+        the mail office.
+  id: 4955
+  time: '2024-04-29T03:07:21.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added  a short entry to guidebook concerning goblins.
+  id: 4956
+  time: '2024-04-29T16:24:52.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: NT No longer send mail to pirates.
+  id: 4957
+  time: '2024-04-29T17:21:42.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        The cultist and syndicate migrated to the harder difficulty expeditions
+        only. 
+  id: 4958
+  time: '2024-04-29T17:22:51.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added Syndicate and Pirate themed hoverbikes, both are considered
+        contraband.
+    - type: Add
+      message: Added syndicate hoverbike flatpack to contravend.
+  id: 4959
+  time: '2024-04-29T17:26:42.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Reduced top thruster speeds.
+  id: 4960
+  time: '2024-04-29T17:29:13.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        You can now sell antagonist human like AI like the Syndicate agents to
+        NFSD, as long as they are alive, for NFSD coins.
+  id: 4961
+  time: '2024-04-29T17:48:22.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added goblin speech bubble.
+    - type: Tweak
+      message: Added to goblins low tolerance for cleanliness.
+    - type: Tweak
+      message: Goblins are less affected by slowdown from wounds.
+  id: 4962
+  time: '2024-04-29T20:02:58.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Salvage expedition dungeons now feature a more varied loot/fluff items
+        pool.
+    - type: Tweak
+      message: Extended salvage expeditions time limit to 15 minutes.
+    - type: Tweak
+      message: >-
+        Limited rewards for completed expeditions to cash only, sum depends on
+        expedition difficulty.
+    - type: Tweak
+      message: Edible food can not be found in salvage expedition dungeons anymore.
+    - type: Add
+      message: Added new salvage expedition dungeon theme - Virology Lab.
+    - type: Add
+      message: >-
+        Added weapon cases. Guns and energy melee weapons on expeditions now
+        spawn in weapon cases with spare magazines.
+    - type: Tweak
+      message: >-
+        Duffel bags with shuttle guns were replaced with newly added weapon
+        cases.
+  id: 4963
+  time: '2024-04-29T21:36:47.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        All Jumpskirts in the game have been correctly listed as skirts, now
+        Harpies can wear them again. 
+  id: 4964
+  time: '2024-05-01T21:37:35.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: >-
+        Fixed goblin stomach. Now it actually doesn't turn itself out when raw
+        meat or blood is consumed by owner of that stomach.
+    - type: Fix
+      message: Lowered sound level of goblin laughter sfx.
+  id: 4965
+  time: '2024-05-01T23:10:16.0000000+00:00'
+- author: blueDev2
+  changes:
+    - type: Add
+      message: Brigmedic PDAs can now perform medical scans
+  id: 4966
+  time: '2024-05-01T23:32:16.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Lower IFF amounts in Expeditionary Flatpackvend, you can now find many
+        IFF boards on planets.
+    - type: Tweak
+      message: >-
+        Added R&D Server Flatpack to Flatpackvend, removed the hidden HoverBike,
+        they can also be found on planets now.
+  id: 4967
+  time: '2024-05-02T01:07:48.0000000+00:00'
+- author: DeltaV
+  changes:
+    - type: Add
+      message: Felinids now scream in agony from water.
+    - type: Tweak
+      message: Felinid's thieving gloves have been removed for Soft paws mechanic.
+    - type: Add
+      message: Added a speech bubble to felinids. Mraow!
+  id: 4968
+  time: '2024-05-02T01:08:21.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Fix
+      message: Fixed mailpod power issue
+  id: 4969
+  time: '2024-05-02T01:21:52.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Added felinids/goblins/vulps to hoverbike built-in storage blacklist.
+  id: 4970
+  time: '2024-05-03T00:27:37.0000000+00:00'
+- author: Wolfking6116
+  changes:
+    - type: Add
+      message: >-
+        CentCom has sent out some educational texts about Artifexium Refinement
+        to be included in a Research Director's Standard Kit across the Frontier
+        Sector.
+  id: 4971
+  time: '2024-05-03T11:04:14.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: >-
+        New goblins send by the nanotrasen recycling plant are more fragile but
+        somehow resist poison and acid much better.
+  id: 4972
+  time: '2024-05-05T19:49:57.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added NT Brigand - new expedition-capable vessel.
+  id: 4973
+  time: '2024-05-08T00:04:21.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: New falcon blackmarket ship.
+  id: 4974
+  time: '2024-05-12T19:38:53.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Catches us up to 5/5/2024. See adjacant changelog for upstream changes.
+    - type: Add
+      message: Loadouts have been vastly reworked to fit frontier
+    - type: Tweak
+      message: >-
+        Basic roles have been re-arranged. Passengers are now Contractors,
+        Pilots now are generic and require 12 hours of playtime, and Mercenaries
+        require 30 hours of playtime.
+  id: 4975
+  time: '2024-05-15T00:49:34.0000000+00:00'
+- author: blueDev2
+  changes:
+    - type: Fix
+      message: Fixed Frontier Outpost Job Icons
+  id: 4976
+  time: '2024-05-15T15:17:25.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added guidebook entries for Gasbender, Harbormaster, Kilderkin, Lantern,
+        Legman, Liquidator and Searchlight.
+    - type: Tweak
+      message: Updated guidebook entry for Pioneer.
+  id: 4977
+  time: '2024-05-17T10:26:33.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: SR backpacks now filled with SR things.
+    - type: Fix
+      message: >-
+        Mercenaries have access to gloves in their loadout menu and have
+        expanded drip selection.
+    - type: Tweak
+      message: 'Belt accessories split in two options: empty and filled.'
+    - type: Tweak
+      message: Slightly expanded drip options for contractors, pilots and mercenaries.
+  id: 4978
+  time: '2024-05-17T14:41:30.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        G.O.R.I.L.L.A. gauntlet can no longer unanchor anything that isnt an
+        anomaly.
+  id: 4979
+  time: '2024-05-17T23:30:04.0000000+00:00'
+- author: MoistBiscuits
+  changes:
+    - type: Add
+      message: Added sakasuki (sake cups) to the Booze-O-Mat
+  id: 4980
+  time: '2024-05-17T23:31:06.0000000+00:00'
+- author: Cu1r
+  changes:
+    - type: Add
+      message: >-
+        The UAC Ambition, an Atmosian logistical powerhouse, makes an appearance
+        in the civilian dockyard after being declassified following its seizure
+        by NanoTrasen black ops.
+  id: 4981
+  time: '2024-05-18T00:02:39.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Add
+      message: >-
+        Televisions once again broadcast chatter from around the camera being
+        watched.
+  id: 4982
+  time: '2024-05-18T00:04:47.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Add
+      message: Added basic utensil recipes to the service techfab
+  id: 4983
+  time: '2024-05-18T02:06:15.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Changed contents of filled chaplain sash to contain: Crucifix, Censer,
+        Bible, Lantern, Flask with Holy Water, Mortuary Urn.
+    - type: Tweak
+      message: Gave mercenaries access to pilot clothes in loadouts.
+    - type: Fix
+      message: Fixed filled Pilot webbing and Filled Salvager Rig in loadouts.
+    - type: Fix
+      message: Enabled dark green jumpsuit.
+  id: 4984
+  time: '2024-05-18T11:35:08.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Add
+      message: >-
+        Added the NT Fishbowl - a personal transport/office for central
+        commanders.
+  id: 4985
+  time: '2024-05-18T19:16:54.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Cappy has joined the NFSD, a veteran war hero cat augmented for tactical
+        operations.
+    - type: Tweak
+      message: Installed radio inside Clippy for Service radio.
+  id: 4986
+  time: '2024-05-20T19:56:15.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: News consoles now publish and delete articles properly.
+  id: 4987
+  time: '2024-05-20T20:21:05.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added north line to shuttle console GUI (code by @FireNameFN)
+  id: 4988
+  time: '2024-05-20T23:38:12.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Starting black web vest no longer come with additional armor inserts.
+  id: 4989
+  time: '2024-05-21T21:04:54.0000000+00:00'
+- author: neuPanda
+  changes:
+    - type: Add
+      message: new Cryo Chem
+  id: 4990
+  time: '2024-05-21T21:55:06.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Add
+      message: 'Future ranged weapons can support melee attacks on the alt-use key. '
+  id: 4991
+  time: '2024-05-24T19:22:22.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Maintenance pass on a number of shuttles with minor changes to: Brigand,
+        Harbormaster, Kilderkin, Lantern, Legman, Liquidator and Searchlight;
+        Major changes to Gasbender and Pioneer. Gasbender is now expedition
+        capable. Pioneer is now smaller.
+  id: 4992
+  time: '2024-05-24T19:47:11.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Fix
+      message: Fixed Clippy not hearing Service Radio
+  id: 4993
+  time: '2024-05-26T14:18:25.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Tweak
+      message: Ships can only hire contractors, pilots, and mercs now.
+  id: 4994
+  time: '2024-05-28T15:26:52.0000000+00:00'
+- author: UncaughtEx
+  changes:
+    - type: Add
+      message: >-
+        Introducing from SBI, with Blueprints graciously supplied by the NT
+        archives, the Crown, for all your Civilian Templar oriented needs!
+  id: 4995
+  time: '2024-05-29T06:42:09.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: >-
+        News articles published in prior rounds no longer show up in later
+        rounds.
+  id: 4996
+  time: '2024-05-30T20:13:16.0000000+00:00'
+- author: UncaughtEx
+  changes:
+    - type: Remove
+      message: >-
+        NT has decided to rescind its License for the Helix Blueprint from the
+        Frontier.
+  id: 4997
+  time: '2024-05-31T11:11:02.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Added more selections to loadouts options! make sure to pick new items!
+  id: 4998
+  time: '2024-06-01T12:46:43.0000000+00:00'
+- author: Katarn1933
+  changes:
+    - type: Add
+      message: New swampy tune for jukebox
+  id: 4999
+  time: '2024-06-01T13:03:59.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added new messenger bags: arcadia, chaplain, chief engineer, contractor,
+        SR, security, black, blue, green, orange, red, purple, brown, light
+        brown, white. Most of new messenger bags available through loadouts.
+    - type: Tweak
+      message: >-
+        Resprited some messenger bags a bit (engineering, janitor, cultist, both
+        NFSD).
+  id: 5000
+  time: '2024-06-01T14:44:45.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: >-
+        Mail RPDS, N2554 Pattern Repeater and BB gun no longer turn invisible if
+        wielded or put in suit storage slot.
+  id: 5001
+  time: '2024-06-01T15:17:54.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: >-
+        Silver Industries has released the argenti 2.0 with improved chamber and
+        shooting speed.
+  id: 5002
+  time: '2024-06-01T16:30:25.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        NT Found there is too much fiber and plastic in all employees blood,
+        making gloves use less fiber, but now they also allow your fingerprints
+        to mark stuff you interact with, some illegal gloves possibly kept the
+        old fibers quality.
+  id: 5003
+  time: '2024-06-02T20:33:51.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Pirate Cove got new equipment shipment.
+  id: 5004
+  time: '2024-06-03T01:05:56.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Tweak
+      message: >-
+        The Ceres is no longer under NanoTrasen branding: look for SBB Ceres
+        instead.
+  id: 5005
+  time: '2024-06-03T18:42:27.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Add
+      message: Added Admeme Hand teleporter
+  id: 5006
+  time: '2024-06-04T14:02:24.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Fix
+      message: Admeme Teleporter hotfix
+  id: 5007
+  time: '2024-06-04T15:26:13.0000000+00:00'
+- author: VividPups
+  changes:
+    - type: Tweak
+      message: Turns out Mosin's Bayonet had a Sheath on it
+  id: 5008
+  time: '2024-06-05T23:27:21.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Added a new accessibility setting to globally disable species vision
+        filters, found under "Extra" tab in settings.
+  id: 5009
+  time: '2024-06-05T23:29:29.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Trade Outpost!
+  id: 5010
+  time: '2024-06-05T23:48:58.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Tweak
+      message: Bank balance added in PDA.
+  id: 5011
+  time: '2024-06-06T00:16:47.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: Lawyer and Janitor loadouts now have consistent tab names and order.
+    - type: Tweak
+      message: Removed Chaplain from Jobs tab in Character Setup.
+  id: 5012
+  time: '2024-06-06T00:18:23.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added new jumpsuits to loadouts. New jumpsuit sprites are based on
+        sprites by Dragonfruits.
+  id: 5013
+  time: '2024-06-06T00:22:52.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: Lowered the movement speed and damage of ore crabs and golems
+    - type: Tweak
+      message: Increased the ore yield from ore crabs and golems
+  id: 5014
+  time: '2024-06-07T07:50:15.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+    - type: Add
+      message: Private Security Hardsuit.
+    - type: Add
+      message: Private security cosmetic options to merc loadout.
+  id: 5015
+  time: '2024-06-07T09:53:14.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Add
+      message: >-
+        Rubber bullets can be printed in the NFSD techfab with Nonlethal
+        Ammunition researched.
+  id: 5016
+  time: '2024-06-07T10:58:39.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: >-
+        Frontier has increased mail related profits, but lowered the amount of
+        existing mail, expect the mail to find you soon. 
+  id: 5017
+  time: '2024-06-07T17:10:14.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: The Mail Truck got a full rework,
+  id: 5018
+  time: '2024-06-07T21:53:00.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: Dragons can devour people again without deleting them.
+  id: 5019
+  time: '2024-06-08T14:40:33.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: >-
+        The Brigmedic HUD now has job icon, wanted status, and health icon
+        display.
+  id: 5020
+  time: '2024-06-08T22:01:36.0000000+00:00'
+- author: Tych0theSynth and Deeja
+  changes:
+    - type: Add
+      message: Added the NSF Broadhead, a new medium-size detective vessel.
+  id: 5021
+  time: '2024-06-09T17:53:08.0000000+00:00'
+- author: GreaseMonk
+  changes:
+    - type: Fix
+      message: Fix grimforged golems dropping too many fragments
+  id: 5022
+  time: '2024-06-10T15:37:04.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Filled belts are now labelled as such in the Loadout window.
+  id: 5023
+  time: '2024-06-11T18:11:38.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added construction bags: similar in function to ore bags, but for
+        construction materials. Available through loadouts, can be printed from
+        engineering techfab or protolathe after completing the T1 industrial
+        research.
+  id: 5024
+  time: '2024-06-11T18:52:06.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Tweak
+      message: >-
+        Pen signing is now a right click verb which can be quickly activated
+        with alt-click.
+    - type: Remove
+      message: >-
+        Pen write/sign mode, everything is bundled into primary verb and alt
+        verb now.
+    - type: Add
+      message: >-
+        Crayons can now be used to sign papers and pass their color to the
+        signature. Works with rainbow!
+  id: 5025
+  time: '2024-06-11T19:17:44.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Pet cats can now wear the carp suit.
+  id: 5026
+  time: '2024-06-11T22:03:34.0000000+00:00'
+- author: GentleButter
+  changes:
+    - type: Add
+      message: Added new lobby art, Handsome Killer.
+  id: 5027
+  time: '2024-06-12T01:48:58.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added hostile mercenaries to expedition enemy faction pool.
+    - type: Add
+      message: Added hostile salvagers to expedition enemy faction pool.
+    - type: Add
+      message: Added hostile robots to expedition enemy faction pool.
+    - type: Add
+      message: >-
+        Added aberrant flesh to expedition enemy faction pool, new sprites by
+        wax391 (discord).
+    - type: Add
+      message: Added argocytes to expedition enemy faction pool.
+    - type: Add
+      message: >-
+        Added dinosaurs to expedition enemy faction pool. Original mobs by
+        Vonsant, sprites by belay5 (discord).
+    - type: Add
+      message: Wearable IFF strobe. Can be printed from salvage techfab.
+    - type: Add
+      message: Turbo laser.
+    - type: Fix
+      message: Fixed solution transfer from syndie darts.
+  id: 5028
+  time: '2024-06-12T10:47:24.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Tweak
+      message: Reclaimers can now process logs and empty beakers, jugs, and buckets.
+    - type: Tweak
+      message: Reclaimers liquid storage increased to 1000u.
+  id: 5029
+  time: '2024-06-12T21:51:38.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added Salvage Outpost dungeon theme.
+    - type: Tweak
+      message: >-
+        Changed expedition loot pools: items should become slightly more scarce
+        but of better value overall.
+    - type: Tweak
+      message: Added advanced hardsuits to expedition loot pool tables.
+    - type: Tweak
+      message: Weapon cases now provide moderate explosion protection for contents.
+    - type: Fix
+      message: Fixed minor graphical error on long weapon case.
+  id: 5030
+  time: '2024-06-12T22:22:04.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        Nanotrasen has developed new tracking methods for the NFSD and packed it
+        all in a nice bundle.
+    - type: Add
+      message: >-
+        Nanotrasen has reverse engineered the china lake for the NFSD to deliver
+        high speed justice.
+    - type: Tweak
+      message: Organized the NFSD Uplink a little more into a bundles category.
+  id: 5031
+  time: '2024-06-13T22:56:14.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Add
+      message: >-
+        Revolvers can now reload from ammunition boxes and magazines, and can
+        provide ammunition for speedloaders.
+    - type: Fix
+      message: Speedloaders do not waste ammunition on partial reloads.
+  id: 5032
+  time: '2024-06-13T23:03:55.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        Contraband appraisal guns are available to appraise contraband items'
+        value in FUCs.
+    - type: Add
+      message: The contraband appraisal gun is now included in the NFSD tool kit.
+  id: 5033
+  time: '2024-06-13T23:06:44.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: >-
+        Oni accuracy penalty is now reduced from 20x normal spread to 18x normal
+        spread.
+    - type: Fix
+      message: >-
+        Oni accuracy penalty is now properly applied to handguns, and does not
+        compound on wielded penalty.
+  id: 5034
+  time: '2024-06-13T23:18:43.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Add
+      message: >-
+        Characters can now select the Pious trait to start with a bible, the
+        ability to use it, and a vow of pacifism.
+    - type: Tweak
+      message: Water and blood can only be blessed with a bible if the user is Pious.
+  id: 5035
+  time: '2024-06-13T23:45:16.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Add
+      message: >-
+        New dragon egg and baby dragon are now more easy to find on this dragon
+        hunting season, don't forget to butcher them!
+    - type: Add
+      message: >-
+        Dragon DNA evolved and there has been sights of them spitting walls of
+        flames.
+    - type: Add
+      message: New omelette recipe using expensive hard to find ingredients.
+  id: 5036
+  time: '2024-06-14T00:02:44.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Added new pumps that start on when places, to be used in mapping.
+  id: 5037
+  time: '2024-06-14T14:46:25.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: Mail envelopes now contain new sets of items.  Check your mail!
+    - type: Add
+      message: The mail teleporter will now occasionally receive larger parcels.
+  id: 5038
+  time: '2024-06-14T22:06:08.0000000+00:00'
+- author: neuPanda
+  changes:
+    - type: Add
+      message: new cryo chems
+  id: 5039
+  time: '2024-06-14T22:52:49.0000000+00:00'
+- author: Leander
+  changes:
+    - type: Tweak
+      message: >-
+        Rules have been updated to place contraband and docking restrictions on
+        the safe-zone, make sure to read them again! 
+  id: 5040
+  time: '2024-06-14T22:57:57.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Stacks of spesos now display the largest valued bill on top.
+  id: 5041
+  time: '2024-06-14T23:17:33.0000000+00:00'
+- author: UncaughtEx
+  changes:
+    - type: Add
+      message: >-
+        With permission from the NT Pharmaceuticals branch, fresh from the Fabs,
+        SBI would like to introduce the Beaker Shipyard License approved for
+        distribution! Yeah, Science!
+  id: 5042
+  time: '2024-06-15T02:40:48.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Fixed backrooms on salvage outpost dungeon theme.
+  id: 5043
+  time: '2024-06-15T18:29:25.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added more questionable clothing choices for fashion enjoyers:
+        jumpsuits, jackets, armor vests, glasses, gasmasks and belts. Check your
+        loadouts.
+    - type: Add
+      message: Added holograffiti projector.
+    - type: Add
+      message: It is now possible to encounter bands of gangers planetside.
+    - type: Add
+      message: Added new accent - Street Punk.
+  id: 5044
+  time: '2024-06-16T22:16:33.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: Updated Frontier Outpost.
+  id: 5045
+  time: '2024-06-16T23:24:16.0000000+00:00'
+- author: Actualcatmoment
+  changes:
+    - type: Fix
+      message: >-
+        connected air vent and scrubber to the rear air alarm in the
+        searchlight.
+  id: 5046
+  time: '2024-06-18T01:10:11.0000000+00:00'
+- author: TsjipTsjip
+  changes:
+    - type: Fix
+      message: >-
+        Left clicking a signed/stamped paper won't add a bogus signature onto it
+        anymore.
+  id: 5047
+  time: '2024-06-19T07:40:00.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: IFF strobes now come with more powerful LEDs.
+  id: 5048
+  time: '2024-06-19T18:45:27.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        The NT Naval Command's database on non-NT vessels was corrupted due to a
+        coffee spill, affecting NT's ability to classify and recognize non-NT
+        vessels.
+  id: 5049
+  time: '2024-06-21T14:08:42.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: Organs once again metabolize a limited number of reagents at once.
+    - type: Tweak
+      message: Cryo pods now only extract cryogenic medicines from beakers.
+  id: 5050
+  time: '2024-06-21T17:02:34.0000000+00:00'
+- author: Actualcatmoment
+  changes:
+    - type: Add
+      message: Added hiring, piloting, expedition entries to the Guidebook.
+    - type: Tweak
+      message: All Frontier-specific Guidebook entries have been rewritten.
+  id: 5051
+  time: '2024-06-24T06:09:00.0000000+00:00'
+- author: Iocanthos and whatston3
+  changes:
+    - type: Add
+      message: Coffee seeds are now available for planting.
+    - type: Add
+      message: >-
+        Coffee beans can be removed from fruit, roasted, ground and added to hot
+        water to make coffee.
+  id: 5052
+  time: '2024-06-24T06:13:34.0000000+00:00'
+- author: Salvantrix
+  changes:
+    - type: Fix
+      message: Pirate roles now spawn with their proper uplink.
+  id: 5053
+  time: '2024-06-27T20:09:02.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: >-
+        Skub and a few security mail types have been fixed.  Added a new SR and
+        common mail type.
+  id: 5054
+  time: '2024-06-28T15:28:15.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Tweak
+      message: The Data Carrier is now lasting longer before it disappears.
+  id: 5055
+  time: '2024-06-28T18:57:11.0000000+00:00'
+- author: VividPups
+  changes:
+    - type: Add
+      message: The Station Representative can now select a beret in their loadout.
+  id: 5056
+  time: '2024-06-29T10:56:36.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: >-
+        Laser pistols have a new sprite, and take up a 1x2 rectangle in
+        inventories.
+  id: 5057
+  time: '2024-06-30T10:49:38.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Fix
+      message: Empress shipyard console no longer sets users' job ID to Captain.
+  id: 5058
+  time: '2024-06-30T15:57:49.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Shuttle cannons can now be targeted by mobs and turrets.
+  id: 5059
+  time: '2024-07-01T16:03:47.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Remove
+      message: >-
+        Removed artifexium processing and books.  Grinding artifact fragments
+        results in regular artifexium.
+  id: 5060
+  time: '2024-07-01T20:55:25.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Fix
+      message: Admin portals no longer despawn.
+  id: 5061
+  time: '2024-07-01T21:36:44.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Lone operative ghost roles should no longer spawn.
+  id: 5062
+  time: '2024-07-02T12:53:51.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Fix
+      message: Fixed railings always facing south upon construction.
+  id: 5063
+  time: '2024-07-02T14:53:46.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Components are now properly required for machine construction.
+    - type: Fix
+      message: Small power cells again function as machine parts.
+  id: 5064
+  time: '2024-07-02T15:56:35.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: 'Non-whitelisted ghost roles are now selectable. '
+  id: 5065
+  time: '2024-07-02T16:17:04.0000000+00:00'
+- author: erhardesteinhauer
+  changes:
+    - type: Fix
+      message: Restored suit storage slot functionality in outer clothing articles.
+  id: 5066
+  time: '2024-07-02T16:20:46.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: >-
+        The bank balance of characters is now always visible in the lobby,
+        character setup, and loadout screens.
+  id: 5067
+  time: '2024-07-02T16:28:03.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added to the Guidebook entries for Bocadillo, Bulker, Chisel, Construct,
+        Comet, Garden, Kestrel, Loader, Pathfinder, Prospector and Vagabond.
+    - type: Add
+      message: Added to the Guidebook schematics for some shuttles.
+  id: 5068
+  time: '2024-07-02T16:44:01.0000000+00:00'
+- author: blueDev2
+  changes:
+    - type: Add
+      message: >-
+        Added the Service Selective Dropper to help chefs move specific reagents
+        from beakers
+  id: 5069
+  time: '2024-07-02T17:37:34.0000000+00:00'
+- author: Qulibly
+  changes:
+    - type: Add
+      message: >-
+        Added Gestio. A burst-fire .20 rifle, a tier 2 civilian firearm. It may
+        be antique but could still prove useful to prospectors. Obtainable
+        through expeditions.
+  id: 5070
+  time: '2024-07-02T17:46:47.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added contraband denying turret that stuns players wearing contraband.
+  id: 5071
+  time: '2024-07-02T22:18:53.0000000+00:00'
+- author: erhardesteinhauer
+  changes:
+    - type: Add
+      message: Added IFF strobes to loadouts menu.
+  id: 5072
+  time: '2024-07-04T14:27:59.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added warning cone, plunger and wet floor sign to loadouts. Janitors can
+        have those for free.
+  id: 5073
+  time: '2024-07-04T22:46:57.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Add
+      message: Added new emotes to goblins; singing and mutter.
+    - type: Tweak
+      message: Added gasping sounds for goblins.
+    - type: Fix
+      message: Allowed goblins to use 'hiss' emote.
+  id: 5074
+  time: '2024-07-04T23:13:36.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: More harpy emotes should be working (e.g. growls, honks)
+  id: 5075
+  time: '2024-07-04T23:22:41.0000000+00:00'
+- author: Kesiath
+  changes:
+    - type: Tweak
+      message: Reworked the NFSD Marauder.
+  id: 5076
+  time: '2024-07-05T00:25:45.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Tweak
+      message: >-
+        SBB Bookworm has received a few tweaks and no longer runs at a power
+        deficit.
+  id: 5077
+  time: '2024-07-05T00:34:31.0000000+00:00'

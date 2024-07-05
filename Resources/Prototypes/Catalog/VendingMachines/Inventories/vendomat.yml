@@ -10,5 +10,5 @@
     MatterBinStockPart: 8
     CapacitorStockPart: 8
     MicroManipulatorStockPart: 8
-    VulpTranslator: 10
+    Beaker: 8    # Frontier - beakers are required for some machines
     AirFreshener: 10

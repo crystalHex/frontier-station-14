@@ -5,6 +5,7 @@
   description: A folded membrane which rapidly expands into a large cubical shape on activation.
   suffix: Full
   components:
+    - type: ConstructionMaterials # Frontier
     - type: Stack
       stackType: InflatableWall
       count: 10
@@ -13,7 +14,7 @@
       state: item_wall
     - type: Item
       sprite: Objects/Misc/inflatable_wall.rsi
-      size: 10
+      size: Small
     - type: SpawnAfterInteract
       prototype: InflatableWall
       doAfter: 1
@@ -33,6 +34,7 @@
   description: A folded membrane which rapidly expands into a large cubical shape on activation.
   suffix: Full
   components:
+    - type: ConstructionMaterials # Frontier
     - type: Stack
       stackType: InflatableDoor
       count: 4
@@ -41,7 +43,7 @@
       state: item_door
     - type: Item
       sprite: Objects/Misc/inflatable_door.rsi
-      size: 4
+      size: Small
     - type: SpawnAfterInteract
       prototype: InflatableDoor
       doAfter: 1
@@ -61,8 +63,6 @@
   components:
     - type: Sprite
       state: item_wall
-    - type: Item
-      size: 5
     - type: Stack
       count: 5
 
@@ -73,8 +73,6 @@
   components:
     - type: Sprite
       state: item_wall
-    - type: Item
-      size: 1
     - type: Stack
       count: 1
 
@@ -85,7 +83,5 @@
   components:
     - type: Sprite
       state: item_door
-    - type: Item
-      size: 1
     - type: Stack
       count: 1

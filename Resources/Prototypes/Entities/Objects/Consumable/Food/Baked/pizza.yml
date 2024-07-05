@@ -1,3 +1,4 @@
+# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml & food_single.yml
 # Base
 
 - type: entity
@@ -26,11 +27,11 @@
   - type: SliceableFood
     count: 8
   - type: Item
-    size: 8
+    size: Normal
   - type: Tag
     tags:
     - Pizza
-    - Fruit # Tomato? idk
+    - ReptilianFood
 
 - type: entity
   parent: FoodInjectableBase # Not sliceable
@@ -57,11 +58,12 @@
         - ReagentId: Flavorol
           Quantity: 3
   - type: Item
-    size: 1
+    size: Tiny
   - type: Tag
     tags:
     - Pizza
-    - Fruit
+    - ReptilianFood
+    - Slice
 
 # Pizza
 
@@ -138,6 +140,7 @@
     tags:
     - Meat
     - Pizza
+    - Slice
 # Tastes like crust, tomato, cheese, meat.
 
 - type: entity
@@ -302,6 +305,7 @@
     tags:
     - Meat
     - Pizza
+    - Slice
 # Tastes like crust, tomato, cheese, meat, laziness.
 
 - type: entity
@@ -406,6 +410,7 @@
     tags:
     - Meat
     - Pizza
+    - Slice
 # Tastes like crust, tomato, cheese, sausage, sass.
 
 - type: entity
@@ -426,9 +431,13 @@
     - state: pineapple
   - type: SliceableFood
     slice: FoodPizzaPineappleSlice
+  - type: Tag
+    tags:
+    - Meat
+    - Pizza
 
 - type: entity
-  name: slice of pineapple pizza
+  name: slice of Hawaiian pizza
   parent: FoodPizzaSliceBase
   id: FoodPizzaPineappleSlice
   description: A slice of joy/sin.
@@ -447,6 +456,7 @@
     tags:
     - Meat
     - Pizza
+    - Slice
 # Tastes like crust, tomato, cheese, pineapple, ham.
 
 #TODO: This is a meme pizza from /tg/. It has specially coded mechanics.
@@ -523,6 +533,7 @@
     tags:
     - Meat
     - Pizza
+    - Slice
 # Tastes like crust, tomato, cheese, pepperoni, 9 millimeter bullets.
 
 #TODO: Make this do poison damage and make cut pizza slices eventually rot into this.

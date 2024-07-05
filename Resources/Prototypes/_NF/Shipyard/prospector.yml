@@ -1,3 +1,13 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Shuttle Notes:
+#
 - type: vessel
   id: Prospector
   name: NC Prospector
@@ -5,12 +15,12 @@
   price: 23000
   category: Small
   group: Civilian
-  shuttlePath: /Maps/Shuttles/prospector.yml
+  shuttlePath: /Maps/_NF/Shuttles/prospector.yml
 
 - type: gameMap
   id: Prospector
   mapName: 'NC Prospector'
-  mapPath: /Maps/Shuttles/prospector.yml
+  mapPath: /Maps/_NF/Shuttles/prospector.yml
   minPlayers: 0
   stations:
     Prospector:
@@ -22,6 +32,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
-          overflowJobs: []
           availableJobs:
-            SalvageSpecialist: [ 0, 0 ]
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

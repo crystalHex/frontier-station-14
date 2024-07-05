@@ -70,6 +70,9 @@
     sprite: Clothing/Head/Helmets/swat_syndicate.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/swat_syndicate.rsi
+  - type: Contraband #frontier
+  - type: FactionClothing # frontier
+    faction: ContrabandClothing # frontier
 
 #Light Riot Helmet
 - type: entity
@@ -110,6 +113,23 @@
         Blunt: 0.95
         Slash: 0.95
         Piercing: 0.95
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+
+#Janitorial Bombsuit Helmet
+- type: entity
+  parent: ClothingHeadHelmetBombSuit
+  id: ClothingHeadHelmetJanitorBombSuit
+  name: janitorial bombsuit helmet
+  description: A heavy helmet designed to withstand explosions formed from reactions between chemicals.
+  suffix: DO NOT MAP
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
 
 #Cult Helmet
 - type: entity
@@ -130,29 +150,9 @@
         Slash: 0.8
         Piercing: 0.9
         Heat: 0.9
-
-#SCAF Helmet
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHelmetScaf
-  name: scaf helmet
-  description: A robust, strong helmet.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Helmets/scaf.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Helmets/scaf.rsi
-  - type: IngestionBlocker
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.8
-  - type: Tag
-    tags:
-    - HidesHair
-    - WhitelistChameleon
+  - type: Contraband #frontier
+  - type: FactionClothing # frontier
+    faction: ContrabandClothing # frontier
 
 #Space Ninja Helmet
 - type: entity
@@ -167,10 +167,13 @@
     sprite: Clothing/Head/Helmets/spaceninja.rsi
   - type: Tag
     tags:
-    - HidesHair
     - WhitelistChameleon
   - type: IngestionBlocker
   - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
 
 #Templar Helmet
 - type: entity
@@ -211,6 +214,9 @@
     sprite: Clothing/Head/Helmets/wizardhelm.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
+  - type: Contraband #frontier
+  - type: FactionClothing # frontier
+    faction: ContrabandClothing # frontier
 
 #Fire Helmet
 - type: entity
@@ -227,11 +233,16 @@
   - type: IngestionBlocker
   - type: TemperatureProtection
     coefficient: 0.005
+  - type: FireProtection
+    reduction: 0.15 # not fully sealed so less protection
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - HidesHair
     - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
 
 #Atmos Fire Helmet
 - type: entity
@@ -248,14 +259,20 @@
   - type: IngestionBlocker
   - type: TemperatureProtection
     coefficient: 0.005
+  - type: FireProtection
+    reduction: 0.2
   - type: PressureProtection
     highPressureMultiplier: 0.25
     lowPressureMultiplier: 1000
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - HidesHair
     - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: BreathMask
 
 #Chitinous Helmet
 - type: entity
@@ -351,3 +368,14 @@
   - type: Construction
     graph: BoneHelmet
     node: helmet
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetPodWars
+  name: ironclad II helmet
+  description: An ironclad II helmet, a relic of the pod wars.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/podwars_helmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/podwars_helmet.rsi

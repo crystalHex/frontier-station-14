@@ -23,9 +23,16 @@ public partial struct StampDisplayInfo
     [DataField("stampedColor")]
     public Color StampedColor;
 
-    [DataField("stampedBorderless")]
-    public bool StampedBorderless;
+    [DataField("stampType")]
+    public StampType Type = StampType.RubberStamp;
 };
+
+// FRONTIER - Stamp types, put it into an enum for modularity purposes.
+public enum StampType
+{
+    RubberStamp,
+    Signature
+}
 
 [RegisterComponent]
 public sealed partial class StampComponent : Component
@@ -35,8 +42,9 @@ public sealed partial class StampComponent : Component
     /// </summary>
     [DataField("stampedName")]
     public string StampedName { get; set; } = "stamp-component-stamped-name-default";
+
     /// <summary>
-    ///     Tne sprite state of the stamp to display on the paper from bureacracy.rsi.
+    ///     Tne sprite state of the stamp to display on the paper from paper Sprite path.
     /// </summary>
     [DataField("stampState")]
     public string StampState { get; set; } = "paper_stamp-generic";
@@ -47,25 +55,10 @@ public sealed partial class StampComponent : Component
     [DataField("stampedColor")]
     public Color StampedColor = Color.FromHex("#BB3232"); // StyleNano.DangerousRedFore
 
-    [DataField("sound")]
-    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/Items/Stamp/thick_stamp_sub.ogg")
-    {
-        Params = AudioParams.Default.WithVolume(-2f).WithMaxDistance(5f)
-    };
-
     /// <summary>
-    /// The stamp using the person name on it
+    /// The sound when stamp stamped
     /// </summary>
-    [DataField("stampedPersonal")]
-    public bool StampedPersonal = false;
+    [DataField("sound")]
+    public SoundSpecifier? Sound = null;
 
-    [DataField("stampedBorderless")]
-    public bool StampedBorderless = false;
-
-    [ViewVariables]
-    public EntityUid? StampedIdUser = null;
-
-    [ViewVariables(VVAccess.ReadWrite)]
-    [DataField("nameSetUser")]
-    public bool NameSetUser { get; set; }
 }

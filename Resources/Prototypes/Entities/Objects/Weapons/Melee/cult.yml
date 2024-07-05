@@ -15,12 +15,13 @@
       types:
         Slash: 12
   - type: Item
-    size: 20
+    size: Normal
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_dagger.rsi
     slots:
     - back
   - type: DisarmMalus
+  - type: Contraband #frontier
 
 - type: entity
   name: eldritch blade
@@ -37,14 +38,15 @@
     attackRate: 0.75
     damage:
       types:
-        Slash: 33
+        Slash: 16
   - type: Item
-    size: 20
+    size: Normal
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_blade.rsi
     slots:
     - back
   - type: DisarmMalus
+  - type: Contraband #frontier
 
 - type: entity
   name: unholy halberd
@@ -65,17 +67,19 @@
     damage:
       types:
         Blunt: 10
-        Slash: 20
-        Structural: 3
+        Slash: 10
+        Structural: 5
+    soundHit:
+      collection: MetalThud
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 4
-        Slash: 12
-        Structural: 30
+        Blunt: 5
+        Slash: 5
+        Structural: 10
   - type: Item
-    size: 150
+    size: Ginormous
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_halberd.rsi
     quickEquip: false
@@ -83,3 +87,4 @@
     - back
   - type: UseDelay
     delay: 1
+  - type: Contraband #frontier

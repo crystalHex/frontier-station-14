@@ -15,7 +15,6 @@
   - type: CargoSellBlacklist
   - type: StaticPrice
     price: 0
-  - type: ItemCooldown
   - type: MeleeWeapon
     damage:
       types:
@@ -25,7 +24,7 @@
     soundSwing:
       path: /Audio/Weapons/punchmiss.ogg
   - type: Item
-    size: 50
+    size: Normal
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -43,7 +42,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/Effects/metalbreak.ogg
+          collection: MetalBreak
       - !type:DumpRestockInventory
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -97,10 +96,10 @@
     - state: refill_chef
 
 - type: entity
-  parent: BaseVendingMachineRestock
+  parent: SecuredVendingMachineRestock
   id: VendingMachineRestockCondimentStation
-  name: Condiment Station restock box
-  description: Refill the Condiment Station. Mmmm, cold sauce.
+  name: condiment station restock box
+  description: Refill the condiment station. Mmmm, cold sauce.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -142,6 +141,9 @@
     - MailDrobeInventory
     - RepDrobeInventory
     - BoxingDrobeInventory
+#    - PietyVendInventory # Dont enable, infinite demon dogs issue
+    - NfsdDrobeInventory # Frontier
+    - YarrrDrobeInventory
   - type: Sprite
     layers:
     - state: base
@@ -320,6 +322,7 @@
   - type: VendingMachineRestock
     canRestock:
     - PTechInventory
+    - PTechNfsdInventory # Frontier
   - type: Sprite
     layers:
     - state: base
@@ -359,6 +362,7 @@
   - type: VendingMachineRestock
     canRestock:
     - SecTechInventory
+    - NfsdTechInventory
   - type: Sprite
     layers:
     - state: base

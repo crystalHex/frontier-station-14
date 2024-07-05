@@ -1,15 +1,32 @@
+using Content.Shared.Speech;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Server.VoiceMask;
+
+public enum RadioMode : byte // Frontier 
+{
+    Real,
+    Fake,
+    Unknown
+}
 
 [RegisterComponent]
 public sealed partial class VoiceMaskerComponent : Component
 {
-    [ViewVariables(VVAccess.ReadWrite)] public string LastSetName = "Unknown";
+    [DataField]
+    public string LastSetName = "Unknown";
 
-    [DataField("action", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-    public string Action = "ActionChangeVoiceMask";
+    [DataField]
+    public ProtoId<SpeechVerbPrototype>? LastSpeechVerb;
 
-    [DataField("actionEntity")] public EntityUid? ActionEntity;
+    [DataField]
+    public EntProtoId Action = "ActionChangeVoiceMask";
+
+    [DataField]
+    public EntityUid? ActionEntity;
+
+    // Frontier
+    [DataField]
+    [AutoNetworkedField]
+    public RadioMode RadioMode = RadioMode.Unknown;
 }

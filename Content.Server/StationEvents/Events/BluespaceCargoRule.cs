@@ -1,4 +1,3 @@
-using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Station.Components;
 using Content.Server.StationEvents.Components;
 using Content.Shared.Physics;
@@ -8,6 +7,7 @@ using Robust.Shared.Physics;
 using Robust.Shared.Random;
 using Robust.Shared.Configuration;
 using Content.Server.Atmos.EntitySystems;
+using Content.Shared.GameTicking.Components;
 using Content.Shared.CCVar;
 
 namespace Content.Server.StationEvents.Events;
@@ -17,8 +17,6 @@ public sealed class BluespaceCargoRule : StationEventSystem<BluespaceCargoRuleCo
     [Dependency] private readonly IConfigurationManager _configuration = default!;
     [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
     [Dependency] protected readonly IRobustRandom _random = default!;
-    //[Dependency] private readonly ITileDefinitionManager _tileDefinitionManager = default!;
-    //[Dependency] private readonly IMapManager _mapManager = default!;
 
     protected override void Added(EntityUid uid, BluespaceCargoRuleComponent component, GameRuleComponent gameRule, GameRuleAddedEvent args)
     {
@@ -43,7 +41,7 @@ public sealed class BluespaceCargoRule : StationEventSystem<BluespaceCargoRuleCo
         if (grid is null)
             return;
 
-        var amountToSpawn = Math.Max(1, (int) MathF.Round(GetSeverityModifier() / 1.5f));
+        var amountToSpawn = Math.Max(1, (int) MathF.Round(5 / 1.5f));
         for (var i = 0; i < amountToSpawn; i++)
         {
             SpawnOnRandomGridLocation(grid.Value, component.CargoSpawnerPrototype, component.CargoGenericSpawnerPrototype, component.CargoFlashPrototype);
@@ -69,7 +67,7 @@ public sealed class BluespaceCargoRule : StationEventSystem<BluespaceCargoRuleCo
             var tile = new Vector2i(randomX, randomY);
 
             // no air-blocked areas.
-            if (_atmosphere.IsTileSpace(grid, xform.MapUid, tile, mapGridComp: gridComp) ||
+            if (_atmosphere.IsTileSpace(grid, xform.MapUid, tile) ||
                 _atmosphere.IsTileAirBlocked(grid, tile, mapGridComp: gridComp))
             {
                 continue;

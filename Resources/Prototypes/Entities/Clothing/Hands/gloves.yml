@@ -20,10 +20,11 @@
     soundHit:
       collection: BoxingHit
     animation: WeaponArcFist
+    mustBeEquippedToUse: true
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-red
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
   - type: Tag
     tags:
     - Kangaroo
@@ -43,7 +44,7 @@
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-blue
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
@@ -59,7 +60,7 @@
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-green
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
@@ -75,7 +76,7 @@
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-yellow
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
   parent: ClothingHandsGlovesBoxingBlue
@@ -83,12 +84,14 @@
   suffix: Rigged
   components:
   - type: StaminaDamageOnHit
-    damage: 30
+    damage: 25
   - type: MeleeWeapon
-    attackRate: 1.5
+    attackRate: 1.4
     damage:
       types:
         Blunt: 8
+    bluntStaminaDamageFactor: 0.0 # so blunt doesn't deal stamina damage at all
+    mustBeEquippedToUse: true
 
 - type: entity
   parent: ClothingHandsBase
@@ -106,11 +109,30 @@
   - type: Fiber
     fiberMaterial: fibers-durathread
     fiberColor: fibers-regal-blue
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesHop
+  name: papercut-proof gloves
+  description: Perfect for dealing with paperwork and matters with bureaucracy.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/hop.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/hop.rsi
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-black
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+#  - type: FingerprintMask # Frontier
 
 #### Medical
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLatex
   name: latex gloves
   description: Thin sterile latex gloves. Basic PPE for any doctor.
@@ -121,24 +143,24 @@
     sprite: Clothing/Hands/Gloves/latex.rsi
   - type: Fiber
     fiberMaterial: fibers-latex
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNitrile
   name: nitrile gloves
   description: High-quality nitrile gloves. Expensive medical PPE.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+    sprite: Clothing/Hands/Gloves/nitrile.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+    sprite: Clothing/Hands/Gloves/nitrile.rsi
   - type: Fiber
     fiberMaterial: fibers-nitrile
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 ####
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLeather
   name: botanist's leather gloves
   description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
@@ -152,7 +174,7 @@
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
   parent: ClothingHandsBase
@@ -166,10 +188,10 @@
     sprite: Clothing/Hands/Gloves/powerglove.rsi
   - type: Fiber
     fiberMaterial: fibers-nanomachines
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesRobohands
   name: robohands gloves
   description: Beep boop borp!
@@ -181,7 +203,7 @@
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-black
-  - type: FingerprintMask
+#  - type: FingerprintMask # Frontier
 
 - type: entity
   parent: ClothingHandsBase
@@ -213,8 +235,9 @@
     stripTimeReduction: 1
     stealthy: true
   - type: NinjaGloves
-  # not actually electrified, just used to make stun ability work
-  - type: Electrified
+  - type: Contraband #frontier
+  - type: FactionClothing #frontier
+    faction: ContrabandClothing #frontier
 
 - type: entity
   parent: ClothingHandsGlovesColorBlack
@@ -222,6 +245,12 @@
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
   components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -250,9 +279,9 @@
   description: High-quality combat gloves to protect hands from mechanical damage during combat.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/olive.rsi
+    sprite: Clothing/Hands/Gloves/mercbattle.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/olive.rsi
+    sprite: Clothing/Hands/Gloves/mercbattle.rsi
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -262,7 +291,7 @@
     fiberColor: fibers-olive
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesFingerless
   name: fingerless gloves
   description: Plain black gloves without fingertips for the hard working.
@@ -290,7 +319,7 @@
     fiberColor: fibers-yellow
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesMercFingerless
   name: mercenary fingerless gloves
   description: Gloves that may not protect you from finger burns, but will make you cooler.
@@ -305,7 +334,7 @@
 
 - type: entity
   # Intentionally named after regular gloves, they're meant to be sneaky.
-  # This means they can also be butchered if you need to look unsus before a very thorough search...
+  # This means they can also be butchered if you need to look un-sus before a very thorough search...
   parent: ClothingHandsGlovesColorBlack
   id: ThievingGloves
   suffix: Thieving
@@ -315,6 +344,10 @@
   - type: Thieving
     stripTimeReduction: 1.5
     stealthy: true
+  - type: FingerprintMask # Frontier
+  - type: Contraband #frontier
+  - type: FactionClothing #frontier
+    faction: ContrabandClothing #frontier
 
 - type: entity
   parent: ClothingHandsGlovesColorWhite
@@ -326,7 +359,7 @@
   - type: Unremoveable
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNorthStar
   name: gloves of the north star
   description: These gloves allow you to punch incredibly fast.
@@ -336,6 +369,7 @@
   - type: Clothing
     sprite: Clothing/Hands/Gloves/northstar.rsi
   - type: MeleeWeapon
+    autoAttack: true
     attackRate: 4
     damage:
       types:
@@ -343,6 +377,7 @@
     soundHit:
       collection: Punch
     animation: WeaponArcFist
+    mustBeEquippedToUse: true
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-blue
@@ -350,15 +385,17 @@
   - type: MeleeSpeech
   - type: ActivatableUI
     key: enum.MeleeSpeechUiKey.Key
-    closeOnHandDeselect: false
-    rightClickOnly: true
+    verbOnly: true
   - type: Actions
   - type: UserInterface
     interfaces:
-      - key: enum.MeleeSpeechUiKey.Key
+      enum.MeleeSpeechUiKey.Key:
         type: MeleeSpeechBoundUserInterface
   - type: StaticPrice
     price: 0
+  - type: Contraband #frontier
+  - type: FactionClothing #frontier
+    faction: ContrabandClothing #frontier
 
 - type: entity
   parent: ClothingHandsBase
@@ -373,4 +410,20 @@
   - type: FingerprintMask
   - type: GuideHelp
     guides:
-    - DNA
+    - Forensics
+
+# TODO Make lubed items not slip in hands
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesJanitor
+  name: rubber gloves
+  description: High-quality rubber gloves, squeaky to do some cleaning!
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/janitor.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/janitor.rsi
+  - type: Fiber
+    fiberMaterial: fibers-rubber
+    fiberColor: fibers-yellow
+#  - type: FingerprintMask # Frontier

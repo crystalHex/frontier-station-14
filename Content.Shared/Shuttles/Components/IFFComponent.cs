@@ -10,15 +10,12 @@ namespace Content.Shared.Shuttles.Components;
 [Access(typeof(SharedShuttleSystem))]
 public sealed partial class IFFComponent : Component
 {
-    /// <summary>
-    /// Should we show IFF by default?
-    /// </summary>
-    public const bool ShowIFFDefault = true;
+    public static readonly Color SelfColor = Color.MediumSpringGreen;
 
     /// <summary>
     /// Default color to use for IFF if no component is found.
     /// </summary>
-    public static readonly Color IFFColor = Color.Aquamarine;
+    public static readonly Color IFFColor = Color.Gold;
 
     [ViewVariables(VVAccess.ReadWrite), DataField, AutoNetworkedField]
     public IFFFlags Flags = IFFFlags.None;
@@ -38,13 +35,18 @@ public enum IFFFlags : byte
     /// <summary>
     /// Should the label for this grid be hidden at all ranges.
     /// </summary>
-    HideLabel,
+    HideLabel = 1,
 
     /// <summary>
     /// Should the grid hide entirely (AKA full stealth).
     /// Will also hide the label if that is not set.
     /// </summary>
-    Hide,
+    Hide = 2,
+
+    /// <summary>
+    /// Is this a player shuttle
+    /// </summary>
+    IsPlayerShuttle = 4,
 
     // TODO: Need one that hides its outline, just replace it with a bunch of triangles or lines or something.
 }

@@ -13,7 +13,7 @@
     sprite: Objects/Consumable/Food/condiments.rsi
   - type: Icon
     sprite: Objects/Consumable/Food/condiments.rsi
-  - type: TrashOnEmpty
+  - type: TrashOnSolutionEmpty
     solution: food
   - type: SpaceGarbage
   - type: StaticPrice
@@ -28,9 +28,10 @@
   abstract: true
   description: A small plastic pack with condiments to put on your food.
   components:
+  - type: Item
+    size: Tiny
   - type: Drink
     solution: food
-    refillable: false
   - type: Openable
     sound:
       collection: packetOpenSounds
@@ -47,12 +48,27 @@
   - type: SolutionTransfer
     maxTransferAmount: 10
   - type: Sprite
-    state: packet-empty
+    layers:
+      - state: packet-trans-2
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: true
+      - state: packet-layer
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: packet-label
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: {state: "packet-layer-open"}
+          False: {state: "packet-layer"}
   - type: Icon
     state: packet-empty
   - type: PhysicalComposition
     materialComposition:
       Plastic: 50
+  - type: Tag
+    tags:
+      - Packet
   - type: StaticPrice
     price: 4.5
 
@@ -74,7 +90,9 @@
       - state: packet-trans-2
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: true
-      - state: packet-astrotame
+      - state: packet-layer
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: packet-label-a
   - type: Icon
     state: packet-astrotame
   - type: Appearance
@@ -95,12 +113,6 @@
         reagents:
         - ReagentId: BbqSauce
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-trans-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-bbq
   - type: Appearance
@@ -121,12 +133,6 @@
         reagents:
         - ReagentId: Cornoil
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-trans-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-cornoil
   - type: Appearance
@@ -147,12 +153,6 @@
         reagents:
         - ReagentId: Frostoil
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-trans-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-frostoil
   - type: Appearance
@@ -173,12 +173,6 @@
         reagents:
         - ReagentId: HorseradishSauce
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-greygoo
   - type: Appearance
@@ -199,12 +193,6 @@
         reagents:
         - ReagentId: Hotsauce
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-trans-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-hotsauce
   - type: Appearance
@@ -225,11 +213,6 @@
         - ReagentId: Ketchup
           Quantity: 10
   - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-ketchup
   - type: Appearance
@@ -249,12 +232,6 @@
         reagents:
         - ReagentId: Mustard
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-mustard
   - type: Appearance
@@ -274,12 +251,6 @@
         reagents:
         - ReagentId: Blackpepper
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-pepper
   - type: Appearance
@@ -305,6 +276,7 @@
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: true
       - state: packet-layer
+        map: ["enum.OpenableVisuals.Layer"]
       - state: packet-label
         color: black
   - type: Icon
@@ -326,12 +298,6 @@
         reagents:
         - ReagentId: Soysauce
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-soysauce
   - type: Appearance
@@ -351,12 +317,6 @@
         reagents:
         - ReagentId: Sugar
           Quantity: 10
-  - type: Sprite
-    layers:
-      - state: packet-solid-2
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: true
-      - state: packet-layer
   - type: Icon
     state: packet-sugar
   - type: Appearance
@@ -378,6 +338,7 @@
   - type: Openable
     sound:
       collection: pop
+    closeable: true
   - type: SolutionContainerManager
     solutions:
       food:
@@ -396,9 +357,17 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 6
     fillBaseName: bottle-alpha-
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: {state: "bottle-open"}
+          False: {state: "bottle-empty"}
   - type: PhysicalComposition
     materialComposition:
       Glass: 50
+  - type: StaticPrice
+    price: 13.5
 
 - type: entity
   parent: BaseFoodCondimentBottle
@@ -415,6 +384,7 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-c
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -440,12 +410,16 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-e
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: true
   - type: Icon
     state: bottle-enzyme
+  - type: Tag
+    tags:
+      - Enzyme
 
 - type: entity
   parent: BaseFoodCondimentBottle
@@ -462,6 +436,7 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-v
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -484,6 +459,7 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-h
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -509,6 +485,7 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-k
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -534,6 +511,7 @@
   - type: Sprite
     layers:
     - state: bottle-empty
+      map: ["enum.OpenableVisuals.Layer"]
     - state: label-b
     - state: bottle-alpha-6
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -548,12 +526,14 @@
 # Shakers
 
 - type: entity
-  parent: BaseFoodCondimentBottle
+  parent: BaseFoodCondiment
   id: BaseFoodShaker
   abstract: true
   name: empty shaker
   description: A shaker used to store and dispense spices.
   components:
+  - type: Item
+    size: Tiny
   - type: Drink
     solution: food
   - type: SolutionContainerManager
@@ -584,6 +564,10 @@
         acts: [ "Destruction" ]
   - type: Sprite
     state: shaker-empty
+  - type: StaticPrice
+    price: 9
+  - type: RefillableSolution
+    solution: food
 
 - type: entity
   parent: BaseFoodShaker
@@ -601,6 +585,9 @@
     state: shaker-salt
   - type: Icon
     state: shaker-salt
+  - type: Tag
+    tags:
+      - SaltShaker
 
 - type: entity
   parent: BaseFoodShaker
@@ -618,3 +605,6 @@
     state: shaker-pepper
   - type: Icon
     state: shaker-pepper
+  - type: Tag
+    tags:
+      - PepperShaker

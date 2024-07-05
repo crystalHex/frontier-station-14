@@ -182,9 +182,6 @@
 #        - id: OxygenTankFilled
         - id: AirTankFilled
         - id: ClothingOuterHardsuitSecurity
-          orGroup: HardsuitSecurity
-        - id: ClothingOuterHardsuitSecuritypatrol # Frontier - 50% to get the patrol suit
-          orGroup: HardsuitSecurity
         - id: ClothingMaskBreath
         - id: JetpackSecurityFilled # Frontier
         - id: HandheldGPSBasic # Frontier
@@ -252,7 +249,7 @@
 #HOS's hardsuit
 - type: entity
   id: SuitStorageHOS
-  parent: SuitStorageBase
+  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse, BaseStructureUnanchorable, SuitStorageBase] # Frontier
   suffix: Head of Security
   components:
   - type: StorageFill
@@ -271,7 +268,7 @@
 #Warden's hardsuit
 - type: entity
   id: SuitStorageWarden
-  parent: SuitStorageBase
+  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse, BaseStructureUnanchorable, SuitStorageBase] # Frontier
   suffix: Warden
   components:
   - type: StorageFill
@@ -356,7 +353,6 @@
         - id: ClothingMaskGas
         - id: ClothingNeckCloakPirateCap # Frontier
         - id: JetpackBlackFilled # Frontier
-        - id: HandheldGPSBasic # Frontier
         - id: HandheldGPSBasic # Frontier
         - id: ClothingShoesBootsMagPirateFilled # Frontier
 

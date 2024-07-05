@@ -39,6 +39,9 @@
     sprite: Clothing/Head/Helmets/eva_syndicate.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/eva_syndicate.rsi
+  - type: Contraband #frontier
+  - type: FactionClothing # frontier
+    faction: ContrabandClothing # frontier
 
 #Cosmonaut Helmet
 - type: entity
@@ -56,7 +59,7 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetVoidParamed
-  name: Paramedic Void Helmet
+  name: paramedic void helmet
   description: A void helmet made for paramedics.
   components:
   - type: Sprite
@@ -68,7 +71,6 @@
   - type: Armor
     modifiers:
       coefficients:
-        Slash: 0.95
         Heat: 0.90
         Radiation: 0.75
   - type: StaticPrice

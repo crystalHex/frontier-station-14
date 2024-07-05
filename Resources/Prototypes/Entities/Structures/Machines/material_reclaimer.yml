@@ -51,6 +51,9 @@
         !type:DamageTrigger
         damage: 100
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
       - !type:ChangeConstructionNodeBehavior
         node: machineFrame
       - !type:DoActsBehavior
@@ -58,14 +61,12 @@
   - type: Machine
     board: MaterialReclaimerMachineCircuitboard
   - type: WiresPanel
-  - type: Wires
-    boardName: wires-board-name-reclaimer
-    layoutId: Reclaimer
   - type: MaterialReclaimer
     whitelist:
       components:
       - PhysicalComposition
       - SpaceGarbage
+      - Log # Frontier
       tags:
       - Trash
       - Recyclable
@@ -74,6 +75,7 @@
       - Material
       - Pda
       - IdCard
+      - Brain
       tags:
       - HighRiskItem
     soundCooldown: 0
@@ -81,7 +83,7 @@
       path: /Audio/Ambience/Objects/crushing.ogg
       params:
         volume: 5
-        maxdistance: 5
+        maxDistance: 5
         loop: true
   - type: MaterialStorage
     insertOnInteract: false
@@ -93,7 +95,7 @@
   - type: SolutionContainerManager
     solutions:
       output:
-        maxVol: 100
+        maxVol: 1000 # Frontier 100<1000
   - type: DrainableSolution
     solution: output
   - type: ExaminableSolution
@@ -104,3 +106,4 @@
     powerLoad: 500 # Allows us to not use the 1000 baseline
   - type: MaterialReclaimerMagnetPickup # Frontier
     range: 0.30
+    magnetEnabled: true
